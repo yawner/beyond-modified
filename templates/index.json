@@ -1,5 +1,20 @@
 {
   "sections": {
+    "featured-collection-slider": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured-collection--image--show": false,
+        "featured-collection--description--show": false,
+        "display-type": "slider",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "1"
+      }
+    },
     "featured-video": {
       "type": "featured-video",
       "settings": {
@@ -13,6 +28,29 @@
         "sub-heading": "Add a subheading here",
         "button-text": "button",
         "button-url": ""
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "light",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 3,
+        "darken-image": true,
+        "parallax-enabled": false,
+        "text-position": "left",
+        "text-width": "small",
+        "overlap": true,
+        "box-around-text": true,
+        "mobile-overlay": false,
+        "overline": "Overline text",
+        "title": "Image with Text",
+        "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+        "link-url": "shopify:\/\/pages\/contact",
+        "link-text": "heey"
       }
     },
     "slideshow": {
@@ -172,22 +210,6 @@
         "link-text": ""
       }
     },
-    "featured-collection-slider": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "",
-        "background-color": "none",
-        "light-text": false,
-        "spacing-above": true,
-        "spacing-below": true,
-        "featured-collection--image--show": false,
-        "featured-collection--description--show": false,
-        "display-type": "slider",
-        "products-per-row--desktop": "3",
-        "products-per-row--mobile": "1"
-      }
-    },
     "16401848243576879d": {
       "type": "image-with-text",
       "disabled": true,
@@ -285,7 +307,6 @@
     },
     "text-columns": {
       "type": "text-columns",
-      "disabled": true,
       "blocks": {
         "text-below-block-0": {
           "type": "image",
@@ -325,7 +346,7 @@
       ],
       "settings": {
         "background-color": "none",
-        "light-text": false,
+        "light-text": true,
         "block-spacing": true,
         "container-width": 3,
         "spacing-above": true,
@@ -385,44 +406,30 @@
         "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
-      "disabled": true,
+    "165006680608161e24": {
+      "type": "fullscreen-bg-video",
       "settings": {
-        "text-color": "auto",
-        "background-color": "light",
-        "container-width": 6,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 3,
-        "darken-image": true,
-        "parallax-enabled": false,
-        "text-position": "left",
-        "text-width": "small",
-        "overlap": true,
-        "box-around-text": true,
-        "mobile-overlay": false,
-        "overline": "Overline text",
-        "title": "Image with Text",
-        "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
-        "link-url": "shopify:\/\/pages\/contact",
-        "link-text": "heey"
+        "fs-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg.mp4?v=1650061268",
+        "fs-poster-image": "shopify:\/\/shop_images\/black-mountain-surf-wax-poster.jpg",
+        "fs-mobile-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg-mobile.mp4?v=1650061417",
+        "fs-mobile-poster-image": "shopify:\/\/shop_images\/black-mountain-surf-wax-poster-mobile.gif"
       }
     }
   },
   "order": [
+    "featured-collection-slider",
     "featured-video",
+    "image-with-text",
     "slideshow",
     "featured-text",
     "featured-collection-grid",
     "16401844160b2264d6",
-    "featured-collection-slider",
     "16401848243576879d",
     "grid-with-overlay",
     "text-columns",
     "newsletter",
     "featured-blog",
     "map",
-    "image-with-text"
+    "165006680608161e24"
   ]
 }
