@@ -1,0 +1,88 @@
+<style>
+  .fs-bg-video-wrapper {
+    margin: 0;
+    padding: 27px 0;
+    overflow: hidden;
+    z-index: -1;
+  }
+  .fs-bg-video-wrapper video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  header.header--root {
+    border-bottom-width: 0px;
+  }
+  .shopify-section [data-background-color="none"] {
+    background-color: transparent;
+  }
+  @media only screen and (max-width: 767px) {
+    .fs-bg-video-desktop {
+      display: none;
+      visibility: hidden;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .fs-bg-video-mobile {
+      display: none;
+      visibility: hidden;
+    } 
+  }
+</style>
+
+<div class="fs-bg-video-wrapper">
+    <video class="fs-bg-video-desktop" poster="{{ section.settings.fs-poster-image | image_url }}" autoplay="" loop="" muted="" playsinline="">
+        <source src="{{ section.settings.fs-video-url }}" type="video/mp4">
+    </video>
+    <video class="fs-bg-video-mobile" poster="{{ section.settings.fs-mobile-poster-image | image_url }}" autoplay="" loop="" muted="" playsinline="">
+      {% if section.settings.fs-mobile-video-url %}
+        <source src="{{ section.settings.fs-mobile-video-url }}" type="video/mp4">
+      {% else %}
+        <source src="{{ section.settings.fs-video-url }}" type="video/mp4">
+      {% endif %}
+    </video>
+</div>  
+
+<script>
+  document.addEventListener('click touchstart', function (event) {
+    document.querySelectorAll('bg-video-mobile').forEach(video => video.play())
+  }, false);
+</script>
+
+{% schema %}
+  {
+    "name": "Video",
+    "settings": [
+      {
+        "type": "url",
+        "id": "fs-video-url",
+        "label": "Desktop Video URL"
+      },
+      {
+        "type": "image_picker",
+        "id": "fs-poster-image",
+        "label": "Desktop Video Poster",
+        "info": "Poster image url for poster attribute on desktop html video tag. This image is a placeholder while the video loads."
+      },
+      {
+        "type": "url",
+        "id": "fs-mobile-video-url",
+        "label": "Mobile Video URL",
+        "info": "Link to a smaller video file to load quicker on mobile devices. If blank, the theme will use the Desktop Video URL above."
+      },
+      {
+        "type": "image_picker",
+        "id": "fs-mobile-poster-image",
+        "label": "Mobile Video Poster",
+        "info": "Poster image url for poster attribute on mobile html video tag. This image is a placeholder while the video loads. Use a very short (2 sec), compressed gif of the video to make it play on low power mode."
+      }
+    ],
+    "presets": [
+      {
+        "name": "Fullscreen Background Video"
+      }
+    ]
+  }
+{% endschema %}

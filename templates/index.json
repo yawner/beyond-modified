@@ -1,0 +1,428 @@
+{
+  "sections": {
+    "featured-video": {
+      "type": "featured-video",
+      "settings": {
+        "video-url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "full-width": true,
+        "background-color": "none",
+        "section-height": "regular",
+        "light-text": true,
+        "darken-video": true,
+        "heading": "Video",
+        "sub-heading": "Add a subheading here",
+        "button-text": "button",
+        "button-url": ""
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/86206_b_fl.jpg",
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "Overline text",
+            "title": "Slide heading",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+            "link-url": "\/",
+            "link-text": "View more"
+          }
+        },
+        "slide-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Yosemite_e9cc6a32-cc9f-4ffc-878e-e307157e2bfa.jpg",
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "Overline text",
+            "title": "Slide heading",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+            "link-url": "\/",
+            "link-text": "View more"
+          }
+        },
+        "slide-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "Overline text",
+            "title": "Slide heading",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+            "link-url": "\/",
+            "link-text": "View more"
+          }
+        },
+        "slide-3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "Overline text",
+            "title": "Slide heading",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+            "link-url": "\/",
+            "link-text": "View more"
+          }
+        }
+      },
+      "block_order": [
+        "slide-0",
+        "slide-1",
+        "slide-2",
+        "slide-3"
+      ],
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "spacing-above": false,
+        "spacing-below": false,
+        "spacing-around-blocks": false,
+        "image-height": 3,
+        "darken-image": true,
+        "blocks_per_slide": 1,
+        "blocks_per_slide_mobile": "1",
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "auto-rotate": false,
+        "rotate-frequency": 7,
+        "transition_type": "slide"
+      }
+    },
+    "featured-text": {
+      "type": "featured-text",
+      "disabled": true,
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "Overline text",
+        "heading": "Introduce your brand",
+        "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.<\/p>"
+      }
+    },
+    "featured-collection-grid": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "",
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": false,
+        "spacing-below": true,
+        "featured-collection--image--show": false,
+        "featured-collection--description--show": false,
+        "display-type": "grid",
+        "products-per-row--desktop": "4",
+        "products-per-row--mobile": "2"
+      }
+    },
+    "16401844160b2264d6": {
+      "type": "grid-with-overlay",
+      "disabled": true,
+      "blocks": {
+        "1640184416bb54cf4d-0": {
+          "type": "image",
+          "settings": {
+            "wide": false,
+            "tall": false,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "1640184416bb54cf4d-1": {
+          "type": "image",
+          "settings": {
+            "wide": false,
+            "tall": false,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        }
+      },
+      "block_order": [
+        "1640184416bb54cf4d-0",
+        "1640184416bb54cf4d-1"
+      ],
+      "settings": {
+        "text-style": "light-with-overlay",
+        "background-color": "none",
+        "spacing": true,
+        "mobile-overlay": true,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "width": 2,
+        "mobile-width": "2",
+        "heading": "Grid with overlay",
+        "subtitle": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "featured-collection-slider": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "",
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured-collection--image--show": false,
+        "featured-collection--description--show": false,
+        "display-type": "slider",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "1"
+      }
+    },
+    "16401848243576879d": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "text-color": "auto",
+        "background-color": "light",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 3,
+        "darken-image": true,
+        "parallax-enabled": false,
+        "text-position": "left",
+        "text-width": "large",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "overline": "Overline text",
+        "title": "Image with text",
+        "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "grid-with-overlay": {
+      "type": "grid-with-overlay",
+      "disabled": true,
+      "blocks": {
+        "overlay-block-0": {
+          "type": "image",
+          "settings": {
+            "wide": false,
+            "tall": false,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "overlay-block-1": {
+          "type": "image",
+          "settings": {
+            "wide": false,
+            "tall": false,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "overlay-block-2": {
+          "type": "image",
+          "settings": {
+            "wide": false,
+            "tall": false,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "overlay-block-3": {
+          "type": "image",
+          "settings": {
+            "wide": false,
+            "tall": false,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        }
+      },
+      "block_order": [
+        "overlay-block-0",
+        "overlay-block-1",
+        "overlay-block-2",
+        "overlay-block-3"
+      ],
+      "settings": {
+        "text-style": "box",
+        "background-color": "none",
+        "spacing": true,
+        "mobile-overlay": true,
+        "container-width": 5,
+        "spacing-above": true,
+        "spacing-below": true,
+        "width": 4,
+        "mobile-width": "2",
+        "heading": "Grid with overlay",
+        "subtitle": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "text-columns": {
+      "type": "text-columns",
+      "disabled": true,
+      "blocks": {
+        "text-below-block-0": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "title": "Grid image",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "text-below-block-1": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "title": "Grid image",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "text-below-block-2": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "title": "Grid image",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        }
+      },
+      "block_order": [
+        "text-below-block-0",
+        "text-below-block-1",
+        "text-below-block-2"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "block-spacing": true,
+        "container-width": 3,
+        "spacing-above": true,
+        "spacing-below": true,
+        "width": 3,
+        "image-width": 0,
+        "mobile-width": "2",
+        "text-alignment": "center",
+        "heading": "Text columns with images",
+        "subtitle": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "background-color": "dark",
+        "light-text": true,
+        "spacing-above": true,
+        "spacing-below": true,
+        "heading": "Subscribe to our newsletter",
+        "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+      }
+    },
+    "featured-blog": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "blog-heading": "Blog posts",
+        "blog": "news",
+        "tag-select": "pinned",
+        "show-date": true,
+        "show-excerpt": true,
+        "view-more-text": "View more"
+      }
+    },
+    "map": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "api-key": "",
+        "map-address": "391 Sutter St, San Francisco",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "background-color": "light",
+        "light-text": false,
+        "theme": "grayscale",
+        "heading": "Our store",
+        "address": "<p>391 Sunrise Blvd,<br\/>Los Angeles<br\/>CA 94108, USA<\/p>",
+        "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "text-color": "auto",
+        "background-color": "light",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 3,
+        "darken-image": true,
+        "parallax-enabled": false,
+        "text-position": "left",
+        "text-width": "small",
+        "overlap": true,
+        "box-around-text": true,
+        "mobile-overlay": false,
+        "overline": "Overline text",
+        "title": "Image with Text",
+        "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+        "link-url": "shopify:\/\/pages\/contact",
+        "link-text": "heey"
+      }
+    }
+  },
+  "order": [
+    "featured-video",
+    "slideshow",
+    "featured-text",
+    "featured-collection-grid",
+    "16401844160b2264d6",
+    "featured-collection-slider",
+    "16401848243576879d",
+    "grid-with-overlay",
+    "text-columns",
+    "newsletter",
+    "featured-blog",
+    "map",
+    "image-with-text"
+  ]
+}
