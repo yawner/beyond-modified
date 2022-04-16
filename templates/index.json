@@ -1,5 +1,19 @@
 {
   "sections": {
+    "featured-text": {
+      "type": "featured-text",
+      "disabled": true,
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 1,
+        "spacing-above": false,
+        "spacing-below": false,
+        "overline": "Black Mountain Surf Wax",
+        "heading": "Introduce your brand",
+        "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.<\/p>"
+      }
+    },
     "165006680608161e24": {
       "type": "fullscreen-bg-video",
       "settings": {
@@ -52,8 +66,8 @@
         "parallax-enabled": false,
         "text-position": "left",
         "text-width": "small",
-        "overlap": true,
-        "box-around-text": true,
+        "overlap": false,
+        "box-around-text": false,
         "mobile-overlay": false,
         "overline": "Overline text",
         "title": "Image with Text",
@@ -140,20 +154,6 @@
         "auto-rotate": false,
         "rotate-frequency": 7,
         "transition_type": "slide"
-      }
-    },
-    "featured-text": {
-      "type": "featured-text",
-      "disabled": true,
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": true,
-        "overline": "Overline text",
-        "heading": "Introduce your brand",
-        "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.<\/p>"
       }
     },
     "featured-collection-grid": {
@@ -417,12 +417,12 @@
     }
   },
   "order": [
+    "featured-text",
     "165006680608161e24",
     "featured-collection-slider",
     "featured-video",
     "image-with-text",
     "slideshow",
-    "featured-text",
     "featured-collection-grid",
     "16401844160b2264d6",
     "16401848243576879d",
