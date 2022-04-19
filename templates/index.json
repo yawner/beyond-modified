@@ -1,27 +1,27 @@
 {
   "sections": {
-    "165006680608161e24": {
-      "type": "fullscreen-bg-video",
+    "1650330033bec5d38d": {
+      "type": "full-page-bg-video",
       "settings": {
         "fs-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg.mp4?v=1650061268",
-        "fs-poster-image": "shopify:\/\/shop_images\/black-mountain-surf-wax-poster.jpg",
+        "fs-poster-img": "",
         "fs-mobile-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg-mobile.mp4?v=1650061417",
-        "fs-mobile-poster-image": "shopify:\/\/shop_images\/black-mountain-surf-wax-poster-mobile.gif"
+        "fs-mobile-poster-img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-poster-mobile.gif?v=1650060889"
       }
     },
-    "featured-collection-slider": {
+    "featured-collection-grid": {
       "type": "featured-collection",
       "settings": {
         "collection": "",
         "background-color": "none",
-        "light-text": true,
+        "light-text": false,
         "spacing-above": true,
         "spacing-below": true,
         "featured-collection--image--show": false,
         "featured-collection--description--show": false,
         "display-type": "grid",
         "products-per-row--desktop": "3",
-        "products-per-row--mobile": "1"
+        "products-per-row--mobile": "2"
       }
     },
     "featured-video": {
@@ -44,7 +44,7 @@
       "settings": {
         "text-color": "light",
         "background-color": "none",
-        "container-width": 3,
+        "container-width": 4,
         "spacing-above": true,
         "spacing-below": true,
         "image-height": 2,
@@ -80,6 +80,7 @@
         },
         "slide-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Yosemite_e9cc6a32-cc9f-4ffc-878e-e307157e2bfa.jpg",
             "text-position": "bottom-left",
@@ -141,20 +142,18 @@
         "transition_type": "slide"
       }
     },
-    "featured-collection-grid": {
-      "type": "featured-collection",
+    "featured-text": {
+      "type": "featured-text",
       "disabled": true,
       "settings": {
-        "collection": "",
         "background-color": "none",
         "light-text": false,
-        "spacing-above": false,
+        "container-width": 4,
+        "spacing-above": true,
         "spacing-below": true,
-        "featured-collection--image--show": false,
-        "featured-collection--description--show": false,
-        "display-type": "grid",
-        "products-per-row--desktop": "4",
-        "products-per-row--mobile": "2"
+        "overline": "Overline text",
+        "heading": "Introduce your brand",
+        "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.<\/p>"
       }
     },
     "16401844160b2264d6": {
@@ -202,6 +201,22 @@
         "subtitle": "",
         "link-url": "",
         "link-text": ""
+      }
+    },
+    "featured-collection-slider": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "",
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured-collection--image--show": false,
+        "featured-collection--description--show": false,
+        "display-type": "slider",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "1"
       }
     },
     "16401848243576879d": {
@@ -301,6 +316,7 @@
     },
     "text-columns": {
       "type": "text-columns",
+      "disabled": true,
       "blocks": {
         "text-below-block-0": {
           "type": "image",
@@ -340,7 +356,7 @@
       ],
       "settings": {
         "background-color": "none",
-        "light-text": true,
+        "light-text": false,
         "block-spacing": true,
         "container-width": 3,
         "spacing-above": true,
@@ -402,13 +418,14 @@
     }
   },
   "order": [
-    "165006680608161e24",
-    "featured-collection-slider",
+    "1650330033bec5d38d",
+    "featured-collection-grid",
     "featured-video",
     "image-with-text",
     "slideshow",
-    "featured-collection-grid",
+    "featured-text",
     "16401844160b2264d6",
+    "featured-collection-slider",
     "16401848243576879d",
     "grid-with-overlay",
     "text-columns",
