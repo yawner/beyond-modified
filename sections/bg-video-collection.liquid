@@ -142,7 +142,8 @@
 
 <style>
   .collection-bg-video-wrapper {
-    position: relative;
+    width:100%;
+    height:100%;
   }
   .collection-bg-video-wrapper video {
     width: 100%;
@@ -150,6 +151,9 @@
     position: absolute;
     object-fit: cover;
     z-index: 0;
+  }
+  #shopify-section-{{ section.id }} {
+    position:relaive;
   }
   .shopify-section [data-background-color="none"] {
     background-color: transparent;
