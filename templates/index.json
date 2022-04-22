@@ -4,7 +4,6 @@
       "type": "full-page-bg-video",
       "settings": {
         "fs-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg.mp4?v=1650061268",
-        "fs-poster-img": "",
         "fs-mobile-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg-mobile.mp4?v=1650061417",
         "fs-mobile-poster-img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-poster-mobile.gif?v=1650060889"
       }
@@ -12,9 +11,9 @@
     "featured-collection-grid": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
+        "collection": "frontpage",
         "background-color": "none",
-        "light-text": false,
+        "light-text": true,
         "spacing-above": true,
         "spacing-below": true,
         "featured-collection--image--show": false,
