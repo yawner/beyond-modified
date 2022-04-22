@@ -1,0 +1,278 @@
+{%- liquid
+  comment
+    Translations
+  endcomment
+
+  assign skip_link_t = 'sections.featured_collection.skip_link' | t
+  assign view_collection_t = 'sections.featured_collection.view_collection' | t
+
+  comment
+    Variables
+  endcomment
+
+  assign collection = collections[section.settings.collection]
+  assign light_text = section.settings.light-text
+  assign product_per_row_desktop = section.settings.products-per-row--desktop
+  assign product_per_row_mobile = section.settings.products-per-row--mobile
+  assign product_limit = section.settings.product_limit
+  assign product_limit_mobile = section.settings.product_limit_mobile
+  assign spacing_above = section.settings.spacing-above
+  assign spacing_below = section.settings.spacing-below
+  assign unique_handle = 'featured-collection--' | append: section.id
+
+  assign onboarding = true
+  if collection.handle.size > 0 and collection.products_count != 0
+    assign onboarding = false
+  endif
+
+  if onboarding
+    assign collection_title = 'collections.placeholder.collection_title' | t
+    if collection.handle.size > 0 and collection.products_count == 0
+      assign collection_title = collection.title
+    endif
+    if section.settings.featured-collection--description--show
+      assign collection_description = 'collections.placeholder.collection_description' | t
+    endif
+    if section.settings.featured-collection--image--show
+      capture collection_image
+        render "placeholder", type: "collection", aspect_ratio: 1.45, placeholder_index: 1
+      endcapture
+    endif
+  else
+    assign collection_title = collection.title
+
+    if collection.image.size > 0 and section.settings.featured-collection--image--show
+      capture collection_image
+        render "image", image: collection.image
+      endcapture
+    endif
+
+    if collection.description.size > 0 and section.settings.featured-collection--description--show
+      assign collection_description = collection.description
+    endif
+  endif
+-%}
+
+<div
+  class="featured-collection--root"
+  data-js-class="FeaturedCollection"
+  data-section-id="{{ section.id }}"
+  data-background-color="none"
+  data-container="section"
+  data-display-type="grid"
+  data-has-image="{% if collection_image.size > 0 %}true{% else %}false{% endif %}"
+  data-light-text="{{ light_text }}"
+  data-section-type="index_featured_collection"
+  data-spacing-above="{{ spacing_above }}"
+  data-spacing-below="{{ spacing_below }}"
+>
+
+<div class="collection-bg-video-wrapper">
+    <video class="collection-bg-video" poster="" autoplay="" loop="" muted="" playsinline="">
+        <source src="{{ section.settings.collection-video-url }}" type="video/mp4">
+    </video>
+    <video class="collection-bg-video-mobile" poster="{{ section.settings.collection-mobile-poster-img }}" autoplay="" loop="" muted="" playsinline="">
+      {% if section.settings.collection-mobile-video-url %}
+        <source src="{{ section.settings.collection-mobile-video-url }}" type="video/mp4">
+      {% else %}
+        <source src="{{ section.settings.collection-video-url }}" type="video/mp4">
+      {% endif %}
+    </video>
+</div>
+
+  <header class="featured-collection--header" data-container="block">
+    <div class="featured-collection--header-text">
+      <h2 class="featured-collection--title" data-item="section-heading">
+        <a href="{{ collection.url }}">{{ collection_title }}</a>
+      </h2>
+
+      {% if collection_description.size > 0 %}
+        <div class="featured-collection--description" data-item="paragraph">
+          {{ collection_description }}
+        </div>
+      {% endif %}
+    </div>
+
+    {% if collection_image.size > 0 %}
+      <div class="featured-collection--image" data-item="image">
+        {{ collection_image }}
+      </div>
+    {% endif %}
+  </header>
+
+    <div
+      class="featured-collection--grid"
+      data-container="panel"
+      data-columns="{{ product_per_row_desktop }}"
+      data-mobile-columns="{{ product_per_row_mobile }}"
+    >
+      {% liquid
+        if onboarding
+          for i in (1..product_limit)
+            assign placeholder_index = i
+            if i > 6
+              assign placeholder_index = i | minus: 6
+            endif
+
+            render 'product--item', onboarding: true, unique_handle: unique_handle, placeholder_index: placeholder_index
+          endfor
+
+        else
+          for product in collection.products limit: product_limit
+            render 'product--item', product: product, unique_handle: unique_handle, section_id: section.id
+          endfor
+        endif
+      -%}
+    </div>
+
+  {% if collection.products.size > 1 %}
+    <div data-container="block">
+      <div
+        id="featured-collection-show-more"
+        class="featured-collection--show-more"
+        data-item="block-link"
+      >
+        <a href="{{ collection.url }}">
+          {{ view_collection_t }}
+        </a>
+      </div>
+    </div>
+  {% endif %}
+</div>
+
+<style>
+  .collection-bg-video-wrapper {
+    position: relative;
+  }
+  .collection-bg-video-wrapper video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+  }
+  .shopify-section [data-background-color="none"] {
+    background-color: transparent;
+  }
+  @media only screen and (max-width: 767px) {
+    .collection-bg-video-desktop {
+      display: none;
+      visibility: hidden;
+    }
+    #shopify-section-template-{{ section.id }} .product--root:nth-of-type(1n+{{ product_limit_mobile }}) {
+        display: none;
+        visibility: hidden;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .collection-bg-video-mobile {
+      display: none;
+      visibility: hidden;
+    } 
+  }
+</style>
+
+{% schema %}
+{
+  "name": "BG Video collection",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection"
+    },
+    {
+      "type": "url",
+      "id": "collection-video-url",
+      "label": "Desktop Video URL"
+    },
+    {
+      "type": "url",
+      "id": "collection-mobile-video-url",
+      "label": "Mobile Video URL",
+      "info": "Link to a smaller video file to load quicker on mobile devices. If blank, the theme will use the Desktop Video URL above."
+    },
+    {
+      "type": "url",
+      "id": "collection-mobile-poster-img",
+      "label": "Mobile Video Poster",
+      "info": "This image is a placeholder while the video loads. The url is added to the poster attribute on the mobile html video tag. Use a very short (2 sec), compressed gif of the video to make it play on low power mode."
+    },
+    {
+      "id": "light-text",
+      "label": "Use light text color",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "id": "spacing-above",
+      "label": "Spacing above",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "id": "spacing-below",
+      "label": "Spacing below",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "featured-collection--image--show",
+      "label": "Show collection image",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "featured-collection--description--show",
+      "label": "Show collection description",
+      "default": false
+    },
+    {
+      "label": "Products per row (desktop)",
+      "id": "products-per-row--desktop",
+      "type": "radio",
+      "options": [
+        { "value": "3", "label": "3" },
+        { "value": "4", "label": "4" }
+      ],
+      "default": "3",
+    },
+    {
+      "label": "Product per row (mobile)",
+      "id": "products-per-row--mobile",
+      "type": "radio",
+      "options": [
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "range",
+      "id": "product_limit",
+      "label": "Product limit (desktop)",
+      "min": 1,
+      "max": 8,
+      "step": 1,
+      "default": 5,
+      "info": "Use this to limit the number of products so they don't overflow past the bottom of your video."
+    },
+    {
+      "type": "range",
+      "id": "product_limit_mobile",
+      "label": "Product limit (mobile)",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 2,
+      "info": "Use this to limit the number of products so they don't overflow past the bottom of your video."
+    }
+  ],
+  "presets": [
+    {
+      "name": "BG Video collection"
+    }
+  ]
+}
+{% endschema %}

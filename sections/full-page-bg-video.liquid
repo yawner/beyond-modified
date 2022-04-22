@@ -1,5 +1,5 @@
 <div class="fs-bg-video-wrapper">
-    <video class="fs-bg-video-desktop" poster="{{ section.settings.fs-poster-img }}" autoplay="" loop="" muted="" playsinline="">
+    <video class="fs-bg-video-desktop" poster="" autoplay="" loop="" muted="" playsinline="">
         <source src="{{ section.settings.fs-video-url }}" type="video/mp4">
     </video>
     <video class="fs-bg-video-mobile" poster="{{ section.settings.fs-mobile-poster-img }}" autoplay="" loop="" muted="" playsinline="">
@@ -22,12 +22,6 @@
       },
       {
         "type": "url",
-        "id": "fs-poster-img",
-        "label": "Desktop Video Poster",
-        "info": "This image is a placeholder while the video loads. The url is added to the poster attribute on the desktop html video tag. If you leave this blank the first frame of the video will be the placeholder."
-      },
-      {
-        "type": "url",
         "id": "fs-mobile-video-url",
         "label": "Mobile Video URL",
         "info": "Link to a smaller video file to load quicker on mobile devices. If blank, the theme will use the Desktop Video URL above."
@@ -47,7 +41,7 @@
   }
 {% endschema %}
 
-{% stylesheet %}
+<style>
   .fs-bg-video-wrapper {
     position: fixed;
     top: 0;
@@ -70,11 +64,11 @@
     background-size: cover;
   }
   header.header--root {
-	z-index:100;
+  	z-index:1;
     border-bottom-width: 0px;
   }
   .shopify-section .newsletter--root {
-	z-index: 1;
+  	z-index: 1;
     position: relative;
   }
   .shopify-section [data-background-color="none"] {
@@ -92,10 +86,10 @@
       visibility: hidden;
     } 
   }
-{% endstylesheet %}
+</style>
 
 {% javascript %}
   document.addEventListener('click touchstart', function (event) {
-    document.querySelectorAll('bg-video-mobile').forEach(video => video.play())
+    document.querySelectorAll('fs-bg-video-mobile').forEach(video => video.play())
   }, false);
 {% endjavascript %}
