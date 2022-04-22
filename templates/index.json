@@ -436,6 +436,24 @@
         "address": "<p>391 Sunrise Blvd,<br\/>Los Angeles<br\/>CA 94108, USA<\/p>",
         "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
       }
+    },
+    "1650642360af2b7f8d": {
+      "type": "bg-video-collection",
+      "settings": {
+        "collection": "frontpage",
+        "video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg.mp4?v=1650061268",
+        "mobile-video-url": "",
+        "mobile-poster-img": "",
+        "light-text": true,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured-collection--image--show": false,
+        "featured-collection--description--show": false,
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "1",
+        "product_limit": 5,
+        "product_limit_mobile": 2
+      }
     }
   },
   "order": [
@@ -453,6 +471,7 @@
     "text-columns",
     "newsletter",
     "featured-blog",
-    "map"
+    "map",
+    "1650642360af2b7f8d"
   ]
 }
