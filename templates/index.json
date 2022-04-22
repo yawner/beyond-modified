@@ -2,6 +2,7 @@
   "sections": {
     "1650330033bec5d38d": {
       "type": "full-page-bg-video",
+      "disabled": true,
       "settings": {
         "fs-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg.mp4?v=1650061268",
         "fs-mobile-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg-mobile.mp4?v=1650061417",
@@ -10,6 +11,7 @@
     },
     "featured-collection-grid": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "frontpage",
         "background-color": "none",
@@ -38,8 +40,27 @@
         "button-url": ""
       }
     },
+    "165064044567756850": {
+      "type": "bg-video-collection",
+      "settings": {
+        "collection": "",
+        "video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg.mp4?v=1650061268",
+        "mobile-video-url": "",
+        "mobile-poster-img": "",
+        "light-text": true,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured-collection--image--show": false,
+        "featured-collection--description--show": false,
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "1",
+        "product_limit": 5,
+        "product_limit_mobile": 2
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "light",
         "background-color": "none",
@@ -63,6 +84,7 @@
     },
     "slideshow": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "slide-0": {
           "type": "image",
@@ -220,6 +242,7 @@
     },
     "16401848243576879d": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "light",
         "background-color": "none",
@@ -369,24 +392,6 @@
         "link-text": ""
       }
     },
-    "165064044567756850": {
-      "type": "bg-video-collection",
-      "settings": {
-        "collection": "",
-        "video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg.mp4?v=1650061268",
-        "mobile-video-url": "",
-        "mobile-poster-img": "",
-        "light-text": true,
-        "spacing-above": true,
-        "spacing-below": true,
-        "featured-collection--image--show": false,
-        "featured-collection--description--show": false,
-        "products-per-row--desktop": "3",
-        "products-per-row--mobile": "1",
-        "product_limit": 5,
-        "product_limit_mobile": 2
-      }
-    },
     "newsletter": {
       "type": "newsletter",
       "settings": {
@@ -437,6 +442,7 @@
     "1650330033bec5d38d",
     "featured-collection-grid",
     "featured-video",
+    "165064044567756850",
     "image-with-text",
     "slideshow",
     "featured-text",
@@ -445,7 +451,6 @@
     "16401848243576879d",
     "grid-with-overlay",
     "text-columns",
-    "165064044567756850",
     "newsletter",
     "featured-blog",
     "map"
