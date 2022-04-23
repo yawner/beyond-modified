@@ -123,7 +123,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Apparel-Test.png",
-            "text-position": "bottom-left",
+            "text-position": "center",
             "text-width": "medium",
             "overline": "",
             "title": "Apparel",
