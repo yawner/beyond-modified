@@ -432,8 +432,8 @@
         "light-text": true,
         "spacing-above": true,
         "spacing-below": true,
-        "heading": "Subscribe to our newsletter",
-        "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+        "heading": "Newsletter",
+        "newsletter--subheading": "<p>Sign up now for <\/p>"
       }
     },
     "featured-blog": {
