@@ -123,7 +123,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Apparel-Test.png",
-            "text-position": "center",
+            "text-position": "bottom-left",
             "text-width": "medium",
             "overline": "",
             "title": "Apparel",
@@ -138,7 +138,7 @@
       ],
       "settings": {
         "text-color": "auto",
-        "background-color": "none",
+        "background-color": "dark",
         "spacing-above": false,
         "spacing-below": false,
         "spacing-around-blocks": false,
