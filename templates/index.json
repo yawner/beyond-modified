@@ -125,11 +125,11 @@
             "image": "shopify:\/\/shop_images\/Apparel-Test.png",
             "text-position": "bottom-left",
             "text-width": "medium",
-            "overline": "Overline text",
-            "title": "Slide heading",
-            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+            "overline": "",
+            "title": "Apparel",
+            "description": "",
             "link-url": "\/",
-            "link-text": "View more"
+            "link-text": "SHOP HERE"
           }
         }
       },
