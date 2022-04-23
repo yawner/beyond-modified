@@ -142,14 +142,14 @@
         "spacing-above": false,
         "spacing-below": false,
         "spacing-around-blocks": false,
-        "image-height": 3,
+        "image-height": 2,
         "darken-image": true,
         "blocks_per_slide": 1,
         "blocks_per_slide_mobile": "1",
         "box-around-text": false,
         "mobile-overlay": true,
         "auto-rotate": false,
-        "rotate-frequency": 7,
+        "rotate-frequency": 3,
         "transition_type": "slide"
       }
     },
