@@ -37,14 +37,14 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/black-mountain-logo-black.png",
           "logo-position": "left",
-          "logo-height": 70,
+          "logo-height": 65,
           "fix-enabled": true,
           "fixed-logo-height": 45,
           "menu": "main-menu",
           "header-account-show": true,
           "account-icon": "text",
           "search-icon": "text",
-          "cart-icon": "text",
+          "cart-icon": "bag",
           "show-region-selector": true,
           "show-locale-selector": true
         }
