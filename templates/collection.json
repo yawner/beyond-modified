@@ -9,7 +9,7 @@
         "show-description": true,
         "show-image": true,
         "use-image-fallback": true,
-        "image-height": "medium",
+        "image-height": "small",
         "alt-color": true,
         "apply-overlay": true
       }
