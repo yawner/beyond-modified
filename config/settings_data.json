@@ -55,7 +55,7 @@
           "e32c2919-5280-4489-935f-dc5071aecf12": {
             "type": "menu",
             "settings": {
-              "menu-title": "Info",
+              "menu-title": "",
               "menu": "main-menu"
             }
           },
