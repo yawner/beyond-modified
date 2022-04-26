@@ -2,6 +2,7 @@
   "sections": {
     "1650330033bec5d38d": {
       "type": "full-page-bg-video",
+      "disabled": true,
       "settings": {
         "fs-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg.mp4?v=1650061268",
         "fs-mobile-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg-mobile.mp4?v=1650061417",
@@ -22,6 +23,22 @@
         "display-type": "grid",
         "products-per-row--desktop": "3",
         "products-per-row--mobile": "2"
+      }
+    },
+    "featured-collection-slider": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "",
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured-collection--image--show": false,
+        "featured-collection--description--show": false,
+        "display-type": "slider",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "1"
       }
     },
     "165064044567756850": {
@@ -211,22 +228,6 @@
         "subtitle": "",
         "link-url": "",
         "link-text": ""
-      }
-    },
-    "featured-collection-slider": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "",
-        "background-color": "none",
-        "light-text": false,
-        "spacing-above": true,
-        "spacing-below": true,
-        "featured-collection--image--show": false,
-        "featured-collection--description--show": false,
-        "display-type": "slider",
-        "products-per-row--desktop": "3",
-        "products-per-row--mobile": "1"
       }
     },
     "16401848243576879d": {
@@ -430,6 +431,7 @@
   "order": [
     "1650330033bec5d38d",
     "featured-collection-grid",
+    "featured-collection-slider",
     "165064044567756850",
     "featured-video",
     "1650643876c6842892",
@@ -438,7 +440,6 @@
     "slideshow",
     "featured-text",
     "16401844160b2264d6",
-    "featured-collection-slider",
     "16401848243576879d",
     "grid-with-overlay",
     "text-columns",
