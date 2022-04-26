@@ -119,6 +119,14 @@
         "link-url": "",
         "link-text": ""
       }
+    },
+    "165101290448940771": {
+      "type": "full-page-bg-video",
+      "settings": {
+        "fs-video-url": "",
+        "fs-mobile-video-url": "",
+        "fs-mobile-poster-img": ""
+      }
     }
   },
   "order": [
@@ -127,6 +135,7 @@
     "navigation",
     "main",
     "recent-products",
-    "footer-promo"
+    "footer-promo",
+    "165101290448940771"
   ]
 }
