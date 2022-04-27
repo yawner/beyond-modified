@@ -110,6 +110,7 @@
     },
     "image-with-text": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "light",
         "background-color": "none",
