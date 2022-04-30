@@ -21,11 +21,17 @@
         "options": {
           "type": "options",
           "settings": {
+            "variant-style": "buttons",
+            "swatches-enabled": true,
+            "size-chart-enabled": true,
+            "size-chart-option": "size",
+            "size-chart-content": ""
           }
         },
         "buy-buttons": {
           "type": "buy-buttons",
           "settings": {
+            "smart-payment-enabled": true
           }
         },
         "pickup": {
@@ -40,7 +46,11 @@
         },
         "social-sharing": {
           "type": "social-sharing",
+          "disabled": true,
           "settings": {
+            "facebook-enabled": true,
+            "twitter-enabled": true,
+            "pinterest-enabled": true
           }
         }
       },
@@ -55,11 +65,21 @@
         "social-sharing"
       ],
       "settings": {
+        "product-media-spacing": "close-together",
+        "product-modal-enabled": true,
+        "variant-scroll-enabled": true,
+        "image-zoom-enabled": true,
+        "loop-enabled": false
       }
     },
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
+        "show": true,
+        "title": "You may also like",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true
       }
     }
   },

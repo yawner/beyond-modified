@@ -1,9 +1,10 @@
 {
   "current": {
     "color--accent": "#1f2934",
+    "bg-color--light": "#000000",
     "bg-color--dark": "#000000",
-    "bg-color--body": "#ffffff",
-    "color--body": "#111111",
+    "bg-color--body": "#000000",
+    "color--body": "#ffffff",
     "color--alternative": "#ffffff",
     "color--button": "#ffffff",
     "bg-color--button": "#111111",
