@@ -28,6 +28,7 @@
           "home-page-only": false,
           "background-color": "dark",
           "light-text": true,
+          "icon": "shopify:\/\/shop_images\/black-mountain-logo.png",
           "text": "Announcement for sales, promos, shipping info & more — Click and Collect available",
           "link": ""
         }
@@ -35,9 +36,9 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/black-mountain-logo-black.png",
-          "logo-position": "center",
-          "logo-height": 65,
+          "logo": "shopify:\/\/shop_images\/bmountain-surf-wax-logo.png",
+          "logo-position": "left",
+          "logo-height": 55,
           "fix-enabled": true,
           "fixed-logo-height": 45,
           "menu": "main-menu",
