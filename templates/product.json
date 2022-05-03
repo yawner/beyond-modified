@@ -81,10 +81,19 @@
         "spacing-above": true,
         "spacing-below": true
       }
+    },
+    "16516107852c6f1c93": {
+      "type": "full-page-bg-video",
+      "settings": {
+        "fs-video-url": "",
+        "fs-mobile-video-url": "",
+        "fs-mobile-poster-img": ""
+      }
     }
   },
   "order": [
     "main",
-    "recommendations"
+    "recommendations",
+    "16516107852c6f1c93"
   ]
 }
