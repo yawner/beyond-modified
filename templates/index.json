@@ -58,8 +58,8 @@
         "products-per-row--mobile": "2",
         "product_limit": 5,
         "product_limit_mobile": 6,
-        "button-text": "Shop More",
-        "button-url": "shopify:\/\/collections\/frontpage"
+        "collection_button_text": "Shop More",
+        "button_url": "shopify:\/\/collections\/frontpage"
       }
     },
     "featured-video": {
@@ -111,8 +111,8 @@
         "products-per-row--mobile": "1",
         "product_limit": 5,
         "product_limit_mobile": 2,
-        "button-text": "button",
-        "button-url": ""
+        "collection_button_text": "Shop More",
+        "button_url": ""
       }
     },
     "image-with-text": {
