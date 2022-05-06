@@ -122,7 +122,8 @@
     left: 0;
   }
   .text-bg-video-wrapper video {
-    width: 100%;
+    min-width: 100%;
+    width:{{ section.settings.video_zoom }};
     height: 100%;
     object-fit: cover;
   }
@@ -173,6 +174,17 @@
         "id": "mobile-poster-img",
         "label": "Mobile Video Poster",
         "info": "This image is a placeholder while the video loads. The url is added to the poster attribute on the mobile html video tag. Use a very short (2 sec), compressed gif of the video to make it play on low power mode."
+      },
+      {
+        "type": "range",
+        "id": "video_zoom",
+        "min": 100,
+        "max": 200,
+        "step": 10,
+        "unit": "%",
+        "label": "Video zoom",
+		"info": "Use this zoom to crop your video",
+        "default": 100
       },
       {
        "id": "light-text",
