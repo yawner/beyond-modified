@@ -32,7 +32,7 @@
 .flexbox-gap [data-background-color=dark] .featured-content--text-container {
   gap:32px;
 }
-[data-background-color=dark] .featured-content--link--container {
+[data-background-color=dark] .featured-content--link--container, .featured-collection--show-more {
   background: var(--color--button);
   border-color:var(--bg-color--button);
   border-radius:2px;
@@ -44,6 +44,7 @@
   padding: 0 16px;
   vertical-align: bottom;
   width: auto;
+  z-index:1;
 }
 [data-background-color=dark] .featured-content--link--container:after {
   display:none;
