@@ -51,6 +51,11 @@
       assign collection_description = collection.description
     endif
   endif
+  
+  assign button_type = 'button'
+  if light_text
+    assign button_type = 'inverted-secondary-button'
+  endif
 -%}
 
 <div
@@ -137,6 +142,15 @@
         </a>
       </div>
     </div>
+  {% endif %}
+  {% if button_text != blank %}
+    <a
+      class="featured-video--button"
+      data-item="{{ button_type }}"
+      href="{{ button_url }}"
+    >
+      <div>{{ button_text }}</div>
+    </a>
   {% endif %}
 </div>
 
@@ -286,6 +300,17 @@
       "label": "Product limit mobile",
       "info": "Limit your products so they don't overflow your video on mobile",
       "default": 2
+    },
+    {
+      "type": "text",
+      "id": "button-text",
+      "label": "Button text",
+      "default": "button"
+    },
+    {
+      "type": "url",
+      "id": "button-url",
+      "label": "Button URL"
     }
   ],
   "presets": [
