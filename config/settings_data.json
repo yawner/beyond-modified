@@ -7,7 +7,7 @@
     "color--body": "#ffffff",
     "color--alternative": "#ffffff",
     "color--button": "#ffffff",
-    "bg-color--button": "#111111",
+    "bg-color--button": "#000000",
     "bg-color--header": "#000000",
     "color--header": "#fafafa",
     "bg-color--footer": "#000000",
@@ -19,6 +19,7 @@
     "typography--accent": "sans-serif",
     "typography--paragraph": "sans-serif",
     "typography--paragraph--size": "small",
+    "product--text-alignment": "left",
     "search--show-in-header": false,
     "sections": {
       "announcement": {
