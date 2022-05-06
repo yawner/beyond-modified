@@ -130,7 +130,7 @@
       -%}
     </div>
 
-  {% if collection.products.size > 1 and section.settings.collection_button_text %}
+  {% if collection.products.size > 1 and section.settings.collection_button_text != blank %}
     <div data-container="block">
       <div
         id="featured-collection-show-more"
