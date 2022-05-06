@@ -45,7 +45,7 @@
 -%}
 
 <style>
-  {% if settings.typography--custom == true %}
+  {% if settings.body-typography--custom == true %}
     @font-face {
         font-family: 'Chalet';
         src: url('https://cdn.shopify.com/s/files/1/0636/0858/6469/files/chalet.woff2?v=1649900133') format('woff2'),
@@ -54,7 +54,8 @@
         font-style: normal;
         font-display: swap;
     }
-
+  {% endif %}
+  {% if settings.header-typography--custom == true %}
     @font-face {
         font-family: 'Flyerfonts';
         src: url('https://cdn.shopify.com/s/files/1/0636/0858/6469/files/flyerfonts.woff2?v=1649900133') format('woff2'),
@@ -102,7 +103,7 @@
     --font--heading--uppercase: {{ font--heading--uppercase }};
     --font--paragraph--size: {{ font--paragraph--size }};
 
-    {% if settings.typography--custom == true %}
+    {% if settings.header-typography--custom == true %}
     --font--heading--family: 'Flyerfonts', sans-serif;
     --font--heading--weight: normal;
     --font--heading--normal-weight: 400;
@@ -114,7 +115,7 @@
     --font--heading--style: {{ font--heading.style }};
     {% endif %}
  
-    {% if settings.typography--custom == true %}
+    {% if settings.body-typography--custom == true %}
     --font--accent--family: 'Chalet', sans-serif;
     --font--accent--weight: normal;
     --font--accent--style: normal;
@@ -125,7 +126,7 @@
     {% endif %}
     --font--accent--size: {{ font--accent--size }};
 
-    {% if settings.typography--custom == true %}
+    {% if settings.body-typography--custom == true %}
     --font--paragraph--family: 'Chalet', sans-serif;
     --font--paragraph--weight: normal;
     --font--paragraph--style: normal;

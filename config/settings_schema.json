@@ -102,8 +102,14 @@
         "info": "Custom fonts will override your font family choices below and use the Black Mountain Surf Wax brand fonts instead."
       },
       {
-        "id": "typography--custom",
-        "label": "Use custom fonts",
+        "id": "header-typography--custom",
+        "label": "Use custom header font",
+        "type": "checkbox",
+        "default": false
+      },
+      {
+        "id": "body-typography--custom",
+        "label": "Use custom body font",
         "type": "checkbox",
         "default": false
       },
