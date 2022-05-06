@@ -58,7 +58,7 @@
         "products-per-row--mobile": "2",
         "product_limit": 5,
         "product_limit_mobile": 6,
-        "collection_button_text": "Shop More",
+        "collection_button_text": "Shop more",
         "button_url": "shopify:\/\/collections\/frontpage"
       }
     },
