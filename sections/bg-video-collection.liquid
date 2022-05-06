@@ -146,7 +146,7 @@
   
   {% if button_text != blank %}
     <a
-      class="featured-video--button"
+      class="featured-collection--button"
       data-item="{{ button_type }}"
       href="{{ button_url }}"
     >
@@ -175,6 +175,9 @@
   }
   .shopify-section [data-background-color="none"] {
     background-color: transparent;
+  }
+  .featured-collection--button {
+    width:100%;
   }
   @media only screen and (max-width: 767px) {
     .collection-bg-video {
