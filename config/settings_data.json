@@ -41,7 +41,7 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/bmountain-surf-wax-logo.png",
           "logo-position": "center",
-          "logo-height": 55,
+          "logo-height": 75,
           "fix-enabled": true,
           "fixed-logo-height": 45,
           "menu": "main-menu",
