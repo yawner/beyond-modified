@@ -12,7 +12,8 @@
     "color--header": "#fafafa",
     "bg-color--footer": "#000000",
     "color--footer": "#ffffff",
-    "typography--custom": true,
+    "header-typography--custom": true,
+    "body-typography--custom": true,
     "typography--heading": "sans-serif",
     "typography--heading--uppercase": false,
     "typography--heading--size": "x-large",
@@ -21,6 +22,7 @@
     "typography--paragraph--size": "small",
     "product--text-alignment": "left",
     "search--show-in-header": false,
+    "typography--custom": true,
     "sections": {
       "announcement": {
         "type": "announcement",
