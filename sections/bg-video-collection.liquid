@@ -137,21 +137,11 @@
         class="featured-collection--show-more"
         data-item="block-link"
       >
-        <a href="{{ collection.url }}">
-          {{ view_collection_t }}
+        <a href="{{ section.settings.collection_button_url }}">
+          {{ section.settings.collection_button_text }}
         </a>
       </div>
     </div>
-  {% endif %}
-  
-  {% if section.settings.button-text != blank %}
-    <a
-      class="featured-collection--button"
-      data-item="{{ button_type }}"
-      href="{{ section.settings.button_url }}"
-    >
-      <div>{{ section.settings.button_text }}</div>
-    </a>
   {% endif %}
   
 </div>
@@ -308,9 +298,9 @@
     },
     {
       "type": "text",
-      "id": "button_text",
+      "id": "collection_button_text",
       "label": "Button text",
-      "default": "button"
+      "default": "Shop More"
     },
     {
       "type": "url",
