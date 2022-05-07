@@ -22,7 +22,6 @@
   data-section-id="{{ section.id }}"
   data-js-class="FeaturedVideo"
   data-background-color="none"
-  data-darken-video="{{ darken_video }}"
   data-full-width="true"
   data-light-text="{{ light_text }}"
   data-section-height="{{ section_height }}"
@@ -201,7 +200,7 @@
         "type": "range",
         "id": "desktop_padding",
         "min": 32,
-        "max": 128,
+        "max": 256,
         "step": 4,
         "unit": "px",
         "label": "Desktop padding",
@@ -212,7 +211,7 @@
         "type": "range",
         "id": "mobile_padding",
         "min": 32,
-        "max": 128,
+        "max": 256,
         "step": 4,
         "unit": "px",
         "label": "Mobile padding",
@@ -224,13 +223,6 @@
        "label": "Use light text color",
        "type": "checkbox",
        "default": false
-      },
-      {
-        "type": "checkbox",
-        "id": "darken-video",
-        "label": "Darken Video",
-        "default": true,
-        "info": "Can enhance text visibility"
       },
       {
         "type": "text",
