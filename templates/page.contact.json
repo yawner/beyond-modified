@@ -61,12 +61,40 @@
         "store-hours": "",
         "show-social-sharing": true
       }
+    },
+    "165189076682b45bb5": {
+      "type": "bg-video-text",
+      "disabled": true,
+      "settings": {
+        "video-url": "",
+        "mobile-video-url": "",
+        "mobile-poster-img": "",
+        "video_zoom": 100,
+        "desktop_padding": 64,
+        "mobile_padding": 64,
+        "light-text": false,
+        "heading": "Video",
+        "sub-heading": "Add a subheading here",
+        "button-text": "button",
+        "button-url": ""
+      }
+    },
+    "165189106951ededb6": {
+      "type": "full-page-bg-video",
+      "disabled": true,
+      "settings": {
+        "fs-video-url": "",
+        "fs-mobile-video-url": "",
+        "fs-mobile-poster-img": ""
+      }
     }
   },
   "order": [
     "1632436597fbc1d0e4",
     "main",
     "16324378141979f11c",
-    "1632180071f18cee62"
+    "1632180071f18cee62",
+    "165189076682b45bb5",
+    "165189106951ededb6"
   ]
 }
