@@ -85,6 +85,8 @@
         "mobile-video-url": "",
         "mobile-poster-img": "",
         "video_zoom": 100,
+        "desktop_padding": 128,
+        "mobile_padding": 64,
         "light-text": true,
         "darken-video": true,
         "heading": "Black Mountain",
