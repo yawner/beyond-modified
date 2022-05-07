@@ -179,12 +179,20 @@
         display: none;
         visibility: hidden;
     }
+    #shopify-section-{{ section.id }} .featured-collection--root {
+      padding-top:{{ section.settings.mobile_padding }}px;
+      padding-bottom:{{ section.settings.mobile_padding }}px;
+    }
   }
   @media only screen and (min-width: 768px) {
     .collection-bg-video-mobile {
       display: none;
       visibility: hidden;
-    } 
+    }
+    #shopify-section-{{ section.id }} .featured-collection--root {
+      padding-top:{{ section.settings.desktop_padding }}px;
+      padding-bottom:{{ section.settings.desktop_padding }}px;
+    }
   }
 </style>
 
@@ -224,6 +232,28 @@
       "label": "Video zoom",
       "info": "Use this zoom to crop your video",
       "default": 100
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding",
+      "min": 32,
+      "max": 256,
+      "step": 4,
+      "unit": "px",
+      "label": "Desktop padding",
+      "info": "Use this to increase the height of the section to crop the background video",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding",
+      "min": 32,
+      "max": 256,
+      "step": 4,
+      "unit": "px",
+      "label": "Mobile padding",
+      "info": "Use this to increase the height of the section to crop the background video on mobile",
+      "default": 64
     },
     {
       "id": "light-text",
