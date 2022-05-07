@@ -149,14 +149,14 @@
   }
   @media only screen and (max-width: 767px) {
   .featured-video--root .featured-video--container {
-      padding-top:{{ section.settings.mobile_padding }};
-      padding-bottom:{{ section.settings.mobile_padding }};
+      padding-top:{{ section.settings.mobile_padding }}px;
+      padding-bottom:{{ section.settings.mobile_padding }}px;
     }
   }
   @media only screen and (min-width: 768px) {
     .featured-video--root .featured-video--container {
-      padding-top:{{ section.settings.desktop_padding }};
-      padding-bottom:{{ section.settings.desktop_padding }};
+      padding-top:{{ section.settings.desktop_padding }}px;
+      padding-bottom:{{ section.settings.desktop_padding }}px;
     }
     .text-bg-video-mobile {
       display: none;
@@ -203,7 +203,7 @@
         "min": 32,
         "max": 128,
         "step": 4,
-        "unit": "%",
+        "unit": "px",
         "label": "Desktop padding",
 		"info": "Use this to increase the height of the section to crop the background video",
         "default": 64
@@ -214,7 +214,7 @@
         "min": 32,
         "max": 128,
         "step": 4,
-        "unit": "%",
+        "unit": "px",
         "label": "Mobile padding",
 		"info": "Use this to increase the height of the section to crop the background video on mobile",
         "default": 64
