@@ -154,6 +154,10 @@
     }
   }
   @media only screen and (min-width: 768px) {
+    .featured-video--root .featured-video--container {
+      padding-top:{{ section.settings.desktop_padding }};
+      padding-bottom:{{ section.settings.desktop_padding }};
+    }
     .text-bg-video-mobile {
       display: none;
       visibility: hidden;
@@ -201,7 +205,7 @@
         "step": 4,
         "unit": "%",
         "label": "Desktop padding",
-		"info": "Use this to increase the height of the section",
+		"info": "Use this to increase the height of the section to crop the background video",
         "default": 64
       },
       {
@@ -212,7 +216,7 @@
         "step": 4,
         "unit": "%",
         "label": "Mobile padding",
-		"info": "Use this to increase the height of the section",
+		"info": "Use this to increase the height of the section to crop the background video on mobile",
         "default": 64
       },
       {
