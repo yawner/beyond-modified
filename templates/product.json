@@ -45,15 +45,6 @@
           "settings": {
           }
         },
-        "social-sharing": {
-          "type": "social-sharing",
-          "disabled": true,
-          "settings": {
-            "facebook-enabled": true,
-            "twitter-enabled": true,
-            "pinterest-enabled": true
-          }
-        },
         "273af5d0-20dc-42a7-a904-674f94d3a41d": {
           "type": "quantity-input",
           "settings": {
@@ -63,6 +54,14 @@
           "type": "overline",
           "settings": {
             "text": "PRODUCTS SHIP WITHIN 2-3 BUSINESS DAYS AFTER ORDER CONFIRMATION"
+          }
+        },
+        "social-sharing": {
+          "type": "social-sharing",
+          "settings": {
+            "facebook-enabled": true,
+            "twitter-enabled": true,
+            "pinterest-enabled": true
           }
         }
       },
@@ -74,9 +73,9 @@
         "buy-buttons",
         "pickup",
         "description",
-        "social-sharing",
         "273af5d0-20dc-42a7-a904-674f94d3a41d",
-        "52b223d7-7f34-4ba4-9658-9bdc9704143b"
+        "52b223d7-7f34-4ba4-9658-9bdc9704143b",
+        "social-sharing"
       ],
       "settings": {
         "product-media-spacing": "close-together",
