@@ -10,6 +10,7 @@
         },
         "vendor": {
           "type": "vendor",
+          "disabled": true,
           "settings": {
           }
         },
@@ -52,6 +53,17 @@
             "twitter-enabled": true,
             "pinterest-enabled": true
           }
+        },
+        "273af5d0-20dc-42a7-a904-674f94d3a41d": {
+          "type": "quantity-input",
+          "settings": {
+          }
+        },
+        "52b223d7-7f34-4ba4-9658-9bdc9704143b": {
+          "type": "overline",
+          "settings": {
+            "text": "SHIPPING POLICY"
+          }
         }
       },
       "block_order": [
@@ -62,7 +74,9 @@
         "buy-buttons",
         "pickup",
         "description",
-        "social-sharing"
+        "social-sharing",
+        "273af5d0-20dc-42a7-a904-674f94d3a41d",
+        "52b223d7-7f34-4ba4-9658-9bdc9704143b"
       ],
       "settings": {
         "product-media-spacing": "close-together",
