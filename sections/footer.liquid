@@ -46,16 +46,6 @@
             endif
           -%}
 
-          {% unless shop.enabled_payment_types == empty %}
-            {% if section.settings.show-payment-icons %}
-              <div class="footer--sub--block" data-type="payment-icons">
-                <div class="footer--sub--container">
-                  {% render 'payment-icons' %}
-                </div>
-              </div>
-            {% endif %}
-          {% endunless %}
-    
           <div class="footer--block" data-block-type="about" {{ block.shopify_attributes }}>
             <div class="footer--block--container">
               {% if block.settings.about-title != blank %}
@@ -220,6 +210,15 @@
       </div>
     {% endif %}
 
+    {% unless shop.enabled_payment_types == empty %}
+      {% if section.settings.show-payment-icons %}
+        <div class="footer--sub--block" data-type="payment-icons">
+          <div class="footer--sub--container">
+            {% render 'payment-icons' %}
+          </div>
+        </div>
+      {% endif %}
+    {% endunless %}
   </div>
 
 </footer>
