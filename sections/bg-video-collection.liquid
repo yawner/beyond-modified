@@ -347,7 +347,7 @@
 }
 {% endschema %}
 
-<script>
+{% javascript %}
 document.addEventListener("DOMContentLoaded", function(){
     document.body.addEventListener("touchstart", playCollectionVideos);
     function playCollectionVideos() {
@@ -363,4 +363,4 @@ document.addEventListener("DOMContentLoaded", function(){
         }
     }
 });
-</script>
+{% endjavascript %}
