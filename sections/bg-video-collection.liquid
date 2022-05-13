@@ -73,10 +73,10 @@
 >
 
 <div class="collection-bg-video-wrapper">
-    <video class="collection-bg-video" autoplay loop muted playsinline>
+    <video id="video-{{ section.id }}" class="collection-bg-video" autoplay loop muted playsinline>
         <source src="{{ section.settings.video-url }}" type="video/mp4">
     </video>
-    <video class="collection-bg-video-mobile" poster="{{ section.settings.mobile-poster-img }}" autoplay loop muted playsinline>
+    <video id="mobile-video-{{ section.id }}" class="collection-bg-video-mobile" poster="{{ section.settings.mobile-poster-img }}" autoplay loop muted playsinline>
       {% if section.settings.collection-mobile-video-url %}
         <source src="{{ section.settings.mobile-video-url }}" type="video/mp4">
       {% else %}
@@ -348,9 +348,19 @@
 {% endschema %}
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    document.addEventListener('click touchstart', function (event) {
-      document.querySelectorAll('fs-bg-video-mobile').forEach(video => video.play())
-    }, false);
-  });
+document.addEventListener("DOMContentLoaded", function(){
+    document.body.addEventListener("touchstart", playCollectionVideos);
+    function playCollectionVideos() {
+        const video = document.getElementById('video-{{ section.id }}');
+        if(video.playing) {
+        } else {
+            video.play();
+        }
+        const mobileVideo = document.getElementById('mobile-video-{{ section.id }}');
+        if(mobileVideo.playing) {
+        } else {
+            mobileVideo.play();
+        }
+    }
+});
 </script>
