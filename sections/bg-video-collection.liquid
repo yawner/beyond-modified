@@ -73,10 +73,10 @@
 >
 
 <div class="collection-bg-video-wrapper">
-    <video class="collection-bg-video" poster="" autoplay="" loop="" muted="" playsinline="">
+    <video class="collection-bg-video" autoplay loop muted playsinline>
         <source src="{{ section.settings.video-url }}" type="video/mp4">
     </video>
-    <video class="collection-bg-video-mobile" poster="{{ section.settings.mobile-poster-img }}" autoplay="" loop="" muted="" playsinline="">
+    <video class="collection-bg-video-mobile" poster="{{ section.settings.mobile-poster-img }}" autoplay loop muted playsinline>
       {% if section.settings.collection-mobile-video-url %}
         <source src="{{ section.settings.mobile-video-url }}" type="video/mp4">
       {% else %}
