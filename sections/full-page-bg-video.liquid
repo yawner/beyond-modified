@@ -1,8 +1,8 @@
 <div class="fs-bg-video-wrapper">
-    <video class="fs-bg-video-desktop" poster="" autoplay="" loop="" muted="" playsinline="">
+    <video id="video-{{ section.id }}" class="fs-bg-video-desktop" poster="" autoplay="" loop="" muted="" playsinline="">
         <source src="{{ section.settings.fs-video-url }}" type="video/mp4">
     </video>
-    <video class="fs-bg-video-mobile" poster="{{ section.settings.fs-mobile-poster-img }}" autoplay="" loop="" muted="" playsinline="">
+    <video id="mobile-video-{{ section.id }}" class="fs-bg-video-mobile" poster="{{ section.settings.fs-mobile-poster-img }}" autoplay="" loop="" muted="" playsinline="">
       {% if section.settings.fs-mobile-video-url %}
         <source src="{{ section.settings.fs-mobile-video-url }}" type="video/mp4">
       {% else %}
@@ -89,7 +89,19 @@
 </style>
 
 <script>
-  document.addEventListener('click touchstart', function (event) {
-    document.querySelectorAll('fs-bg-video-mobile').forEach(video => video.play())
-  }, false);
+document.addEventListener("DOMContentLoaded", function(){
+    document.body.addEventListener("touchstart", playBgVideos);
+    function playBgVideos() {
+        const video = document.getElementById('video-{{ section.id }}');
+        if(video.playing) {
+        } else {
+            video.play();
+        }
+        const mobileVideo = document.getElementById('mobile-video-{{ section.id }}');
+        if(mobileVideo.playing) {
+        } else {
+            mobileVideo.play();
+        }
+    }
+});
 </script>
