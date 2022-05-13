@@ -349,8 +349,8 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    document.addEventListener('click touchstart', function (event) {
-      document.querySelectorAll('fs-bg-video-mobile').forEach(video => video.play())
-    }, false);
+    $("body").on("click touchstart", function() {
+      document.querySelectorAll('video').forEach(video => video.play())
+  	});
   });
 </script>
