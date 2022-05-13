@@ -51,7 +51,7 @@
         "video_zoom": 100,
         "desktop_padding": 64,
         "mobile_padding": 64,
-        "light-text": true,
+        "light-text": false,
         "spacing-above": true,
         "spacing-below": true,
         "featured-collection--image--show": false,

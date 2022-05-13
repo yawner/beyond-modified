@@ -20,6 +20,8 @@
     "typography--accent": "sans-serif",
     "typography--paragraph": "sans-serif",
     "typography--paragraph--size": "small",
+    "product--hover-image-enabled": false,
+    "product--swatches-enabled": false,
     "product--text-alignment": "left",
     "search--show-in-header": false,
     "typography--custom": true,
