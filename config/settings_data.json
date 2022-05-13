@@ -6,7 +6,7 @@
     "bg-color--body": "#000000",
     "color--body": "#ffffff",
     "color--alternative": "#ffffff",
-    "color--button": "#ffffff",
+    "color--button": "#000000",
     "bg-color--button": "#000000",
     "bg-color--header": "#000000",
     "color--header": "#fafafa",
