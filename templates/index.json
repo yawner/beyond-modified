@@ -9,38 +9,6 @@
         "fs-mobile-poster-img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/gif-bg-video-surf-mobile.gif?v=1652384399"
       }
     },
-    "featured-collection-grid": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "frontpage",
-        "background-color": "none",
-        "light-text": true,
-        "spacing-above": true,
-        "spacing-below": true,
-        "featured-collection--image--show": false,
-        "featured-collection--description--show": false,
-        "display-type": "grid",
-        "products-per-row--desktop": "3",
-        "products-per-row--mobile": "2"
-      }
-    },
-    "featured-collection-slider": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "",
-        "background-color": "none",
-        "light-text": false,
-        "spacing-above": true,
-        "spacing-below": true,
-        "featured-collection--image--show": false,
-        "featured-collection--description--show": false,
-        "display-type": "slider",
-        "products-per-row--desktop": "3",
-        "products-per-row--mobile": "1"
-      }
-    },
     "165064044567756850": {
       "type": "bg-video-collection",
       "settings": {
@@ -165,7 +133,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Apparel-Test.png",
-            "text-position": "bottom-left",
+            "text-position": "center",
             "text-width": "medium",
             "overline": "",
             "title": "Apparel",
@@ -181,11 +149,11 @@
       "settings": {
         "text-color": "auto",
         "background-color": "dark",
-        "spacing-above": false,
-        "spacing-below": false,
+        "spacing-above": true,
+        "spacing-below": true,
         "spacing-around-blocks": false,
         "image-height": 4,
-        "darken-image": true,
+        "darken-image": false,
         "blocks_per_slide": 1,
         "blocks_per_slide_mobile": "1",
         "box-around-text": false,
@@ -398,7 +366,7 @@
       "type": "newsletter",
       "settings": {
         "background-color": "dark",
-        "light-text": true,
+        "light-text": false,
         "spacing-above": true,
         "spacing-below": true,
         "heading": "Newsletter",
@@ -438,12 +406,86 @@
         "address": "<p>391 Sunrise Blvd,<br\/>Los Angeles<br\/>CA 94108, USA<\/p>",
         "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
       }
+    },
+    "16525664441f3557ef": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "1652566444c85773db-0": {
+          "type": "image",
+          "settings": {
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "Overline text",
+            "title": "Slide heading",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+            "link-url": "\/",
+            "link-text": "View more"
+          }
+        },
+        "1652566444c85773db-1": {
+          "type": "image",
+          "settings": {
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "Overline text",
+            "title": "Slide heading",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+            "link-url": "\/",
+            "link-text": "View more"
+          }
+        },
+        "1652566444c85773db-2": {
+          "type": "image",
+          "settings": {
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "Overline text",
+            "title": "Slide heading",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+            "link-url": "\/",
+            "link-text": "View more"
+          }
+        },
+        "1652566444c85773db-3": {
+          "type": "image",
+          "settings": {
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "Overline text",
+            "title": "Slide heading",
+            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+            "link-url": "\/",
+            "link-text": "View more"
+          }
+        }
+      },
+      "block_order": [
+        "1652566444c85773db-0",
+        "1652566444c85773db-1",
+        "1652566444c85773db-2",
+        "1652566444c85773db-3"
+      ],
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "spacing-above": false,
+        "spacing-below": false,
+        "spacing-around-blocks": false,
+        "image-height": 5,
+        "darken-image": true,
+        "blocks_per_slide": 2,
+        "blocks_per_slide_mobile": "1",
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "auto-rotate": false,
+        "rotate-frequency": 7,
+        "transition_type": "slide"
+      }
     }
   },
   "order": [
     "1650330033bec5d38d",
-    "featured-collection-grid",
-    "featured-collection-slider",
     "165064044567756850",
     "featured-video",
     "1650643876c6842892",
@@ -457,6 +499,7 @@
     "text-columns",
     "newsletter",
     "featured-blog",
-    "map"
+    "map",
+    "16525664441f3557ef"
   ]
 }
