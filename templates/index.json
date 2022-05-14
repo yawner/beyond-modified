@@ -2,6 +2,7 @@
   "sections": {
     "1650330033bec5d38d": {
       "type": "full-page-bg-video",
+      "disabled": true,
       "settings": {
         "fs-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/bg-video-surf-mobile.mp4?v=1652383427",
         "fs-mobile-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/bg-video-surf-mobile.mp4?v=1652383427",
@@ -42,7 +43,6 @@
     },
     "165064044567756850": {
       "type": "bg-video-collection",
-      "disabled": true,
       "settings": {
         "collection": "frontpage",
         "video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg.mp4?v=1650061268",
@@ -82,7 +82,6 @@
     },
     "1650643876c6842892": {
       "type": "bg-video-text",
-      "disabled": true,
       "settings": {
         "video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg.mp4?v=1650061268",
         "mobile-video-url": "",
@@ -147,6 +146,7 @@
     },
     "featured-text": {
       "type": "featured-text",
+      "disabled": true,
       "settings": {
         "background-color": "none",
         "light-text": false,
