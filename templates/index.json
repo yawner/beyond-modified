@@ -2,11 +2,10 @@
   "sections": {
     "1650330033bec5d38d": {
       "type": "full-page-bg-video",
-      "disabled": true,
       "settings": {
         "fs-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg.mp4?v=1650061268",
         "fs-mobile-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg-mobile.mp4?v=1650061417",
-        "fs-mobile-poster-img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-poster-mobile.gif?v=1650060889"
+        "fs-mobile-poster-img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/gif-bg-video-surf-mobile.gif?v=1652384399"
       }
     },
     "featured-collection-grid": {
@@ -43,6 +42,7 @@
     },
     "165064044567756850": {
       "type": "bg-video-collection",
+      "disabled": true,
       "settings": {
         "collection": "frontpage",
         "video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg.mp4?v=1650061268",
@@ -82,6 +82,7 @@
     },
     "1650643876c6842892": {
       "type": "bg-video-text",
+      "disabled": true,
       "settings": {
         "video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg.mp4?v=1650061268",
         "mobile-video-url": "",
@@ -144,6 +145,19 @@
         "link-text": "heey"
       }
     },
+    "featured-text": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "Overline text",
+        "heading": "Introduce your brand",
+        "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.<\/p>"
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -179,20 +193,6 @@
         "auto-rotate": false,
         "rotate-frequency": 3,
         "transition_type": "slide"
-      }
-    },
-    "featured-text": {
-      "type": "featured-text",
-      "disabled": true,
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": true,
-        "overline": "Overline text",
-        "heading": "Introduce your brand",
-        "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.<\/p>"
       }
     },
     "16401844160b2264d6": {
@@ -449,8 +449,8 @@
     "1650643876c6842892",
     "1650642360af2b7f8d",
     "image-with-text",
-    "slideshow",
     "featured-text",
+    "slideshow",
     "16401844160b2264d6",
     "16401848243576879d",
     "grid-with-overlay",
