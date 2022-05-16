@@ -133,7 +133,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Apparel-Test.png",
-            "text-position": "center",
+            "text-position": "bottom-left",
             "text-width": "medium",
             "overline": "",
             "title": "Apparel",
@@ -149,10 +149,10 @@
       "settings": {
         "text-color": "auto",
         "background-color": "dark",
-        "spacing-above": true,
-        "spacing-below": true,
+        "spacing-above": false,
+        "spacing-below": false,
         "spacing-around-blocks": false,
-        "image-height": 4,
+        "image-height": 3,
         "darken-image": false,
         "blocks_per_slide": 1,
         "blocks_per_slide_mobile": "1",
