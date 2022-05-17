@@ -25,6 +25,8 @@
     "product--text-alignment": "left",
     "product--show-new-label": false,
     "product--quick-add-enabled": false,
+    "product--variant-style": "buttons",
+    "product--show-quantity": false,
     "search--show-in-header": false,
     "typography--custom": true,
     "sections": {
