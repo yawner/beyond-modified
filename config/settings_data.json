@@ -23,6 +23,7 @@
     "product--hover-image-enabled": false,
     "product--swatches-enabled": false,
     "product--text-alignment": "left",
+    "product--show-new-label": false,
     "product--quick-add-enabled": false,
     "search--show-in-header": false,
     "typography--custom": true,
