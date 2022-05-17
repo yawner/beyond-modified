@@ -61,9 +61,9 @@
         "grid-promo-1": {
           "type": "promotion",
           "settings": {
-            "row-number": 2,
+            "row-number": 3,
             "column-number": 2,
-            "promo-width": 2,
+            "promo-width": 3,
             "background-color": "light",
             "text-color": "dark",
             "darken-image": true,
