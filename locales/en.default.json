@@ -312,7 +312,7 @@
     "no_items_left": "The max number of items have already been added",
     "off": "Off",
     "one_item_left": "There is only one item left to add to the cart",
-    "out_of_stock": "Out of stock",
+    "out_of_stock": "SOLD OUT",
     "product_media": "Product media",
     "pickup": {
       "other_pickup_locations": "View pickup locations",
