@@ -22,7 +22,7 @@
     "typography--paragraph--size": "small",
     "product--hover-image-enabled": false,
     "product--swatches-enabled": false,
-    "product--text-alignment": "left",
+    "product--text-alignment": "center",
     "product--show-new-label": false,
     "product--quick-add-enabled": false,
     "product--variant-style": "buttons",
