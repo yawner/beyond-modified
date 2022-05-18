@@ -120,12 +120,14 @@
     top: 0;
     left: 0;
     z-index:-1;
+    overscroll-behavior: none;
   }
   .text-bg-video-wrapper video {
     min-width: 100%;
     width:{{ section.settings.video_zoom }}%;
     height: 100%;
     object-fit: cover;
+    overscroll-behavior: none;
   }
   #shopify-section-{{ section.id }} {
     position:relative;
