@@ -222,7 +222,7 @@
 {% endcapture %}
 
 <div
-  class="product--root"
+  class="product--root{% unless product.available %} sold--out{% endunless %}"
   data-product-view="{{ view }}"
   data-label-color="{{ label_color }}"
   data-label-shape="{{ label_shape }}"
