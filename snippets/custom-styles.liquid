@@ -99,15 +99,16 @@
 }
 @media only screen and (min-width:768px) {
   .product--root .product--label-container[data-item] {
-      top: calc(50% - 13.5px);
-      left: calc(50% - 61px);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 @media only screen and (max-width: 767px) {
   .product--root .product--label-container[data-item] {
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -85%);
   }
 }
 .product--root .product--label-container[data-item] .product--label {
