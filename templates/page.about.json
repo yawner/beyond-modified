@@ -2,6 +2,7 @@
   "sections": {
     "16324732604d3e7054": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
@@ -25,6 +26,7 @@
     },
     "main": {
       "type": "page",
+      "disabled": true,
       "settings": {
         "show-title": false,
         "background-color": "none",
@@ -40,15 +42,16 @@
         "background-color": "none",
         "light-text": false,
         "container-width": 4,
-        "spacing-above": false,
+        "spacing-above": true,
         "spacing-below": true,
-        "overline": "Overline text",
-        "heading": "Introduce your brand",
-        "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.<\/p>"
+        "overline": "",
+        "heading": "OUR STORY",
+        "text": "<p>Born and raised in Hawai’i, the ocean was always our escape from reality. And just a few minutes from home lied our specific place of refuge, our favorite spot, a familiar zone above an aquarium reef where the every day stress melted away.  That location and a rising swell was the day things aligned. <\/p><p><br\/><\/p><p>I was just staring at a mountain in the distance, the one they call “Black Mountain”. I didn’t think anything more or anything less about it, just admiring its beauty, a rainbow arching over it like a crown, and wondering how long the rain on its summit would take to fall on us. Not much better than surfing in heavy rain. <\/p><p><br\/><\/p><p>That’s when it happened - “Black Mountains!” my friend at the peak yelled. Startled out of my day dream I looked to see dark Himalayas peaking a hundred yards out. I whipped my board around and B-lined towards the unknown after him, hoping I might get one before one got me. But those two words stayed with me. <\/p><p><br\/><\/p><p>The relationship between the “sleeping giants” on land and the ones that appear from the deep blue were too powerful to ignore. Black Mountain Surf Wax was born. <\/p><p><br\/><\/p><p>Whether it’s a life changing slide or even just the daily re-center, we hope you get it on this thin layer of high-quality sticky stuff we conjured up for you. Whether it’s half way across the world, or just at that special zone where you find happiness just a few minutes from home, we hope you find  Black Mountains.<\/p><p><br\/><\/p><p><strong>Ua nāna aku kākou i ka hālāwai. ʻIke wale i na mauna ʻeleʻele. <\/strong><\/p><p><br\/><\/p><p><em><strong>We looked to the horizon. All we saw were black mountains.<\/strong><\/em><\/p>"
       }
     },
     "163247330191cc65e8": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
@@ -72,6 +75,7 @@
     },
     "1632473305029b8e81": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
@@ -95,6 +99,7 @@
     },
     "1632473398c42b6136": {
       "type": "featured-video",
+      "disabled": true,
       "settings": {
         "video-url": "",
         "full-width": false,
