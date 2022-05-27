@@ -55,12 +55,12 @@
         "mobile-video-url": "",
         "mobile-poster-img": "",
         "video_zoom": 100,
-        "desktop_padding": 64,
-        "mobile_padding": 116,
+        "desktop_padding": 120,
+        "mobile_padding": 192,
         "light-text": true,
-        "heading": "Black Mountain",
-        "sub-heading": "Text Text Text",
-        "button-text": "button",
+        "heading": "",
+        "sub-heading": "YO",
+        "button-text": "LEARN MORE",
         "button-url": ""
       }
     },
