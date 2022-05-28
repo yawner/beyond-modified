@@ -64,6 +64,7 @@
         "blocks": {
           "a7eb03b3-3424-4469-9c4c-bac8cb59d66d": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "menu-title": "",
               "menu": "main-menu"
