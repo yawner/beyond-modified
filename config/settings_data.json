@@ -62,6 +62,13 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "a7eb03b3-3424-4469-9c4c-bac8cb59d66d": {
+            "type": "menu",
+            "settings": {
+              "menu-title": "",
+              "menu": "main-menu"
+            }
+          },
           "e32c2919-5280-4489-935f-dc5071aecf12": {
             "type": "menu",
             "settings": {
@@ -76,21 +83,12 @@
               "text": "<p>2021 © Black Mountain Surf Wax<\/p>",
               "subscribe--show-social-icons": true
             }
-          },
-          "6146455b-a071-499a-b2c5-c30f12f8e63a": {
-            "type": "about",
-            "disabled": true,
-            "settings": {
-              "about-title": "About the store",
-              "text": "<p>[current_year] © Your brand name here.<br\/><br\/>A brief store summary, tagline, or vision statement.<\/p><p><\/p>",
-              "subscribe--show-social-icons": true
-            }
           }
         },
         "block_order": [
+          "a7eb03b3-3424-4469-9c4c-bac8cb59d66d",
           "e32c2919-5280-4489-935f-dc5071aecf12",
-          "b6a3fdf5-9398-416f-b689-db3bc40597e0",
-          "6146455b-a071-499a-b2c5-c30f12f8e63a"
+          "b6a3fdf5-9398-416f-b689-db3bc40597e0"
         ],
         "settings": {
           "show-region-selector": false,
