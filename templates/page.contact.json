@@ -32,12 +32,11 @@
         "light-text": false,
         "container-width": 1,
         "spacing-above": true,
-        "spacing-below": true
+        "spacing-below": false
       }
     },
     "16324378141979f11c": {
       "type": "featured-text",
-      "disabled": true,
       "settings": {
         "background-color": "none",
         "light-text": false,
@@ -46,7 +45,7 @@
         "spacing-below": true,
         "overline": "",
         "heading": "",
-        "text": "<p>For all customer service & general inquiries please contact us below. One of our staff members will be in contact you within 24 hours.<\/p>"
+        "text": "<p>Have any questions, comments or inquiries? Fill out the form below and we will be in touch with you soon!<\/p>"
       }
     },
     "1632180071f18cee62": {
