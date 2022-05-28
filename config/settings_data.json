@@ -12,7 +12,7 @@
     "color--header": "#fafafa",
     "bg-color--footer": "#000000",
     "color--footer": "#ffffff",
-    "header-typography--custom": false,
+    "header-typography--custom": true,
     "body-typography--custom": true,
     "typography--heading": "news_cycle_n7",
     "typography--heading--uppercase": false,
