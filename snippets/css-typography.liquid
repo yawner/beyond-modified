@@ -108,6 +108,7 @@
     --font--heading--weight: normal;
     --font--heading--normal-weight: 400;
     --font--heading--style: normal;
+    
     {% else %}
     --font--heading--family: {{ font--heading.family }}, {{ font--heading.fallback_families }};
     --font--heading--weight: {{ font--heading.weight | default: 400 }};
