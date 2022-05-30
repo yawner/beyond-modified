@@ -37,6 +37,7 @@
     },
     "16324378141979f11c": {
       "type": "featured-text",
+      "disabled": true,
       "settings": {
         "background-color": "none",
         "light-text": false,
