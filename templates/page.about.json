@@ -54,7 +54,7 @@
         "mobile-overlay": true,
         "overline": "",
         "title": "SAME SHIT, DIFFERENT GENERATION",
-        "description": "<p>I was born and raised on the east side of O’ahu. All I really did was Surf, Skate, and do Jiu Jitsu back then. To be honest, that’s all I really do now. I met my wife from Kaua’i where we both went to college in Santa Barbara and we decided to move back home to raise our kids so they could grow up the same way we did. <\/p>",
+        "description": "<p><\/p><p>I was born and raised on the east side of O’ahu. All I really did was Surf, Skate, and do Jiu Jitsu back then. To be honest, that’s all I really do now. I met my wife from Kaua’i where we both went to college in Santa Barbara and we decided to move back home to raise our kids so they could grow up the same way we did. <\/p>",
         "link-url": "",
         "link-text": ""
       }
@@ -82,19 +82,6 @@
         "link-text": ""
       }
     },
-    "16324732989269ca2c": {
-      "type": "featured-text",
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 2,
-        "spacing-above": true,
-        "spacing-below": true,
-        "overline": "",
-        "heading": "THE DARK PEAKS BEHIND THE NAME",
-        "text": "<p><\/p><p>As I stared at the mountain in the distance, admiring the beauty of the one they call “Black Mountain”, I wondered how long the rain on its summit would take to fall on us. Surfing in heavy rain is the best. <\/p><p><\/p><p>All of a sudden, shaken from my day dream…“BLACK MOUNTAINS!” my friend yelled. I looked to see dark Himalayas peaking a hundred yards out. B-lining towards the horizon, hoping I might get one before one got me, the name behind the company had just presented itself in the only way it could. <\/p><p>I can’t live without surfing. I hope you fall in love with these bars like we have. See you amongst the Black Mountains.<\/p><p>Aloha, Chad <\/p><p>Owner <\/p>"
-      }
-    },
     "1654197934725b5558": {
       "type": "image-with-text",
       "settings": {
@@ -113,9 +100,22 @@
         "mobile-overlay": true,
         "overline": "",
         "title": "THE SCIENTIST",
-        "description": "",
+        "description": "<p><\/p><p>Meeting the chemist behind the gooey mounds of “Black Mountains” wasn’t easy. Dead ends of no returned emails, manufacturers gone out of business, and sub-par wax samples were plentiful and I almost gave up after 6 months. After all, I wasn’t going to try and cook up my own wax - that simply wasn’t my specialty. <br\/><\/p><p>But before all hope was lost, I met “The Scientist” behind “Black Mountains” - a lifelong surfer from Southern California who’d been cooking up super sticky concoctions for over 20 years and perfecting his craft. Fast forward to today and after running through a handful of test runs, we are proud to present “Batch #1” in the boiling hot summer of 2022.<\/p>",
         "link-url": "",
         "link-text": ""
+      }
+    },
+    "16324732989269ca2c": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 2,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "",
+        "heading": "THE DARK PEAKS BEHIND THE NAME",
+        "text": "<p><\/p><p>As I stared at the mountain in the distance, admiring the beauty of the one they call “Black Mountain”, I wondered how long the rain on its summit would take to fall on us. Surfing in heavy rain is the best. <\/p><p><\/p><p>All of a sudden, shaken from my day dream…“BLACK MOUNTAINS!” my friend yelled. I looked to see dark Himalayas peaking a hundred yards out. B-lining towards the horizon, hoping I might get one before one got me, the name behind the company had just presented itself in the only way it could. <\/p><p>I can’t live without surfing. I hope you fall in love with these bars like we have. See you amongst the Black Mountains.<\/p><p>Aloha, Chad <\/p><p>Owner <\/p>"
       }
     },
     "1632473398c42b6136": {
@@ -140,8 +140,8 @@
     "main",
     "163247330191cc65e8",
     "1632473305029b8e81",
-    "16324732989269ca2c",
     "1654197934725b5558",
+    "16324732989269ca2c",
     "1632473398c42b6136"
   ]
 }
