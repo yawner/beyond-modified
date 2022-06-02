@@ -51,7 +51,7 @@
         "text-width": "small",
         "overlap": false,
         "box-around-text": false,
-        "mobile-overlay": true,
+        "mobile-overlay": false,
         "overline": "",
         "title": "SAME SHIT, DIFFERENT GENERATION",
         "description": "<p><\/p><p>I was born and raised on the east side of O’ahu. All I really did was Surf, Skate, and do Jiu Jitsu back then. To be honest, that’s all I really do now. I met my wife from Kaua’i where we both went to college in Santa Barbara and we decided to move back home to raise our kids so they could grow up the same way we did. <\/p>",
@@ -74,7 +74,7 @@
         "text-width": "small",
         "overlap": false,
         "box-around-text": false,
-        "mobile-overlay": true,
+        "mobile-overlay": false,
         "overline": "",
         "title": "A NEW PATH. ONE BAR TO ANOTHER.",
         "description": "<p><\/p><p>I chased my Jiu Jitsu dreams out of college, turning a school project into a martial arts Soap business that I still run today…but somehow, something was still missing. <\/p><p>Between the frigid west coast point breaks and the warm tropical waves in Hawai’i, one thing remained the same, the sticky stuff beneath my feet, and for whatever reason, a new brand of wax was always something that captivated me. I collected them all - the Australian bars, the super tacky Brazilian formulas, and of course the American classics. <br\/><\/p><p>But about 2 years ago, I decided my growing beanstalk of wax was missing its most important bar - my own.  <\/p>",
@@ -97,7 +97,7 @@
         "text-width": "medium",
         "overlap": false,
         "box-around-text": false,
-        "mobile-overlay": true,
+        "mobile-overlay": false,
         "overline": "",
         "title": "THE SCIENTIST",
         "description": "<p><\/p><p>Meeting the chemist behind the gooey mounds of “Black Mountains” wasn’t easy. Dead ends of no returned emails, manufacturers gone out of business, and sub-par wax samples were plentiful and I almost gave up after 6 months. After all, I wasn’t going to try and cook up my own wax - that simply wasn’t my specialty. <br\/><\/p><p>But before all hope was lost, I met “The Scientist” behind “Black Mountains” - a lifelong surfer from Southern California who’d been cooking up super sticky concoctions for over 20 years and perfecting his craft. Fast forward to today and after running through a handful of test runs, we are proud to present “Batch #1” in the boiling hot summer of 2022.<\/p>",
@@ -133,6 +133,14 @@
         "button-text": "button",
         "button-url": ""
       }
+    },
+    "1654198794cd246886": {
+      "type": "full-page-bg-video",
+      "settings": {
+        "fs-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/mountain-b_w.mp4?v=1654198771",
+        "fs-mobile-video-url": "",
+        "fs-mobile-poster-img": ""
+      }
     }
   },
   "order": [
@@ -142,6 +150,7 @@
     "1632473305029b8e81",
     "1654197934725b5558",
     "16324732989269ca2c",
-    "1632473398c42b6136"
+    "1632473398c42b6136",
+    "1654198794cd246886"
   ]
 }
