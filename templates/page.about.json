@@ -26,14 +26,13 @@
     },
     "main": {
       "type": "page",
-      "disabled": true,
       "settings": {
-        "show-title": false,
+        "show-title": true,
         "background-color": "none",
         "light-text": false,
         "container-width": 1,
         "spacing-above": false,
-        "spacing-below": true
+        "spacing-below": false
       }
     },
     "163247330191cc65e8": {
