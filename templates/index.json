@@ -96,7 +96,7 @@
         "mobile-poster-img": "",
         "video_zoom": 100,
         "desktop_padding": 64,
-        "mobile_padding": 64,
+        "mobile_padding": 192,
         "light-text": false,
         "heading": "APPAREL",
         "sub-heading": "",
