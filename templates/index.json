@@ -88,6 +88,22 @@
         "button_url": ""
       }
     },
+    "165911064656072a02": {
+      "type": "bg-video-text",
+      "settings": {
+        "video-url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/74d4f229e10a4346895782cfee229772.mp4",
+        "mobile-video-url": "",
+        "mobile-poster-img": "",
+        "video_zoom": 100,
+        "desktop_padding": 64,
+        "mobile_padding": 64,
+        "light-text": false,
+        "heading": "APPAREL",
+        "sub-heading": "",
+        "button-text": "SHOP NOW",
+        "button-url": ""
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "disabled": true,
@@ -128,6 +144,7 @@
     },
     "slideshow": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "slide-0": {
           "type": "image",
@@ -490,6 +507,7 @@
     "featured-video",
     "1650643876c6842892",
     "1650642360af2b7f8d",
+    "165911064656072a02",
     "image-with-text",
     "featured-text",
     "slideshow",
