@@ -8,6 +8,11 @@
           "settings": {
           }
         },
+        "273af5d0-20dc-42a7-a904-674f94d3a41d": {
+          "type": "quantity-input",
+          "settings": {
+          }
+        },
         "vendor": {
           "type": "vendor",
           "disabled": true,
@@ -45,11 +50,6 @@
           "settings": {
           }
         },
-        "273af5d0-20dc-42a7-a904-674f94d3a41d": {
-          "type": "quantity-input",
-          "settings": {
-          }
-        },
         "52b223d7-7f34-4ba4-9658-9bdc9704143b": {
           "type": "overline",
           "settings": {
@@ -67,13 +67,13 @@
       },
       "block_order": [
         "heading",
+        "273af5d0-20dc-42a7-a904-674f94d3a41d",
         "vendor",
         "price",
         "options",
         "buy-buttons",
         "pickup",
         "description",
-        "273af5d0-20dc-42a7-a904-674f94d3a41d",
         "52b223d7-7f34-4ba4-9658-9bdc9704143b",
         "social-sharing"
       ],
