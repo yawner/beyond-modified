@@ -47,7 +47,6 @@
         },
         "273af5d0-20dc-42a7-a904-674f94d3a41d": {
           "type": "quantity-input",
-          "disabled": true,
           "settings": {
           }
         },
