@@ -53,6 +53,7 @@
         },
         "52b223d7-7f34-4ba4-9658-9bdc9704143b": {
           "type": "overline",
+          "disabled": true,
           "settings": {
             "text": "PRODUCTS SHIP WITHIN 2-3 BUSINESS DAYS AFTER ORDER CONFIRMATION"
           }
