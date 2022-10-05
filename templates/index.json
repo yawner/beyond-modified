@@ -58,10 +58,10 @@
         "desktop_padding": 120,
         "mobile_padding": 192,
         "light-text": true,
-        "heading": "LOOK TO THE HORIZON",
+        "heading": "WHERE WE COME FROM",
         "sub-heading": "",
-        "button-text": "DISCOVER MORE",
-        "button-url": ""
+        "button-text": "ABOUT US",
+        "button-url": "shopify:\/\/pages\/about"
       }
     },
     "1650642360af2b7f8d": {
