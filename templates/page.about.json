@@ -90,7 +90,7 @@
         "text-color": "auto",
         "background-color": "none",
         "container-width": 3,
-        "spacing-above": true,
+        "spacing-above": false,
         "spacing-below": true,
         "image-height": 2,
         "darken-image": true,
