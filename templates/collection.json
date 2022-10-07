@@ -60,6 +60,7 @@
       "blocks": {
         "grid-promo-1": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "row-number": 3,
             "column-number": 2,
