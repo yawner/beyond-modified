@@ -164,6 +164,11 @@ html, body {
 .cart--quantity--input {
     color:#000;
 }
+.radios--input[data-item=radio]:checked+.radios--value-button>*, .radios--input[data-item=radio]:hover+.radios--value-button>*, [data-is-swatches=true] .filter--input:checked+.radios--value-button>*, [data-is-swatches=true] .filter--input:hover+.radios--value-button>* {
+    border-color:transparent;
+    color:#000;
+    background-color:#fff;
+}
 
 {% comment %} Dom's customizations below {% endcomment %}
 .featured-video--sub-heading-mobile {
