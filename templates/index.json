@@ -1,14 +1,5 @@
 {
   "sections": {
-    "1650330033bec5d38d": {
-      "type": "full-page-bg-video",
-      "disabled": true,
-      "settings": {
-        "fs-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/bg-video-surf-mobile.mp4?v=1652383427",
-        "fs-mobile-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/bg-video-surf-mobile.mp4?v=1652383427",
-        "fs-mobile-poster-img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/gif-bg-video-surf-mobile.gif?v=1652384399"
-      }
-    },
     "165064044567756850": {
       "type": "bg-video-collection",
       "settings": {
@@ -32,6 +23,49 @@
         "button_url": "shopify:\/\/collections\/all"
       }
     },
+    "1650643876c6842892": {
+      "type": "bg-video-text",
+      "settings": {
+        "video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/blackmountains.mp4?v=1653633018",
+        "mobile-video-url": "",
+        "mobile-poster-img": "",
+        "video_zoom": 100,
+        "desktop_padding": 120,
+        "mobile_padding": 192,
+        "light-text": true,
+        "heading": "WHERE WE COME FROM",
+        "sub-heading": "",
+        "button-text": "ABOUT US",
+        "button-url": "shopify:\/\/pages\/about"
+      }
+    },
+    "165911064656072a02": {
+      "type": "bg-video-text",
+      "settings": {
+        "video-url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/781b6963ac4f43b0b10bd790b514be77.mp4",
+        "mobile-video-url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/781b6963ac4f43b0b10bd790b514be77.mp4",
+        "mobile-poster-img": "",
+        "video_zoom": 100,
+        "desktop_padding": 64,
+        "mobile_padding": 192,
+        "light-text": false,
+        "heading": "APPAREL",
+        "sub-heading": "",
+        "button-text": "SHOP NOW",
+        "button-url": "shopify:\/\/collections\/apparel"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "background-color": "dark",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "heading": "Newsletter",
+        "newsletter--subheading": "<p>SIGN UP FOR LATEST UPDATES<\/p>"
+      }
+    },
     "featured-video": {
       "type": "featured-video",
       "disabled": true,
@@ -48,20 +82,13 @@
         "button-url": ""
       }
     },
-    "1650643876c6842892": {
-      "type": "bg-video-text",
+    "1650330033bec5d38d": {
+      "type": "full-page-bg-video",
+      "disabled": true,
       "settings": {
-        "video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/blackmountains.mp4?v=1653633018",
-        "mobile-video-url": "",
-        "mobile-poster-img": "",
-        "video_zoom": 100,
-        "desktop_padding": 120,
-        "mobile_padding": 192,
-        "light-text": true,
-        "heading": "WHERE WE COME FROM",
-        "sub-heading": "",
-        "button-text": "ABOUT US",
-        "button-url": "shopify:\/\/pages\/about"
+        "fs-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/bg-video-surf-mobile.mp4?v=1652383427",
+        "fs-mobile-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/bg-video-surf-mobile.mp4?v=1652383427",
+        "fs-mobile-poster-img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/gif-bg-video-surf-mobile.gif?v=1652384399"
       }
     },
     "1650642360af2b7f8d": {
@@ -86,22 +113,6 @@
         "product_limit_mobile": 2,
         "collection_button_text": "Shop More",
         "button_url": ""
-      }
-    },
-    "165911064656072a02": {
-      "type": "bg-video-text",
-      "settings": {
-        "video-url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/781b6963ac4f43b0b10bd790b514be77.mp4",
-        "mobile-video-url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/781b6963ac4f43b0b10bd790b514be77.mp4",
-        "mobile-poster-img": "",
-        "video_zoom": 100,
-        "desktop_padding": 64,
-        "mobile_padding": 192,
-        "light-text": false,
-        "heading": "APPAREL",
-        "sub-heading": "",
-        "button-text": "SHOP NOW",
-        "button-url": "shopify:\/\/collections\/apparel"
       }
     },
     "image-with-text": {
@@ -379,17 +390,6 @@
         "link-text": ""
       }
     },
-    "newsletter": {
-      "type": "newsletter",
-      "settings": {
-        "background-color": "dark",
-        "light-text": false,
-        "spacing-above": true,
-        "spacing-below": true,
-        "heading": "Newsletter",
-        "newsletter--subheading": "<p>SIGN UP FOR LATEST UPDATES<\/p>"
-      }
-    },
     "featured-blog": {
       "type": "featured-blog",
       "disabled": true,
@@ -502,12 +502,13 @@
     }
   },
   "order": [
-    "1650330033bec5d38d",
     "165064044567756850",
-    "featured-video",
     "1650643876c6842892",
-    "1650642360af2b7f8d",
     "165911064656072a02",
+    "newsletter",
+    "featured-video",
+    "1650330033bec5d38d",
+    "1650642360af2b7f8d",
     "image-with-text",
     "featured-text",
     "slideshow",
@@ -515,7 +516,6 @@
     "16401848243576879d",
     "grid-with-overlay",
     "text-columns",
-    "newsletter",
     "featured-blog",
     "map",
     "16525664441f3557ef"
