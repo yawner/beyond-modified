@@ -20,7 +20,7 @@
         "product_limit": 6,
         "product_limit_mobile": 6,
         "collection_button_text": "Shop More",
-        "button_url": "\/collections\/all"
+        "collection_button_url": "shopify:\/\/collections\/all"
       }
     },
     "1650643876c6842892": {
@@ -112,7 +112,7 @@
         "product_limit": 5,
         "product_limit_mobile": 2,
         "collection_button_text": "Shop More",
-        "button_url": ""
+        "collection_button_url": ""
       }
     },
     "image-with-text": {
