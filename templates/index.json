@@ -20,7 +20,7 @@
         "product_limit": 6,
         "product_limit_mobile": 6,
         "collection_button_text": "Shop More",
-        "button_url": "https:\/\/black-mountain-surf-wax.myshopify.com\/collections\/all"
+        "button_url": "\/collections\/all"
       }
     },
     "1650643876c6842892": {
@@ -499,29 +499,6 @@
         "rotate-frequency": 7,
         "transition_type": "slide"
       }
-    },
-    "088b2b8e-10b8-4278-b000-85caf71b87ff": {
-      "type": "bg-video-collection",
-      "settings": {
-        "collection": "frontpage",
-        "video-url": "",
-        "mobile-video-url": "",
-        "mobile-poster-img": "",
-        "video_zoom": 100,
-        "desktop_padding": 64,
-        "mobile_padding": 64,
-        "light-text": false,
-        "spacing-above": true,
-        "spacing-below": true,
-        "featured-collection--image--show": false,
-        "featured-collection--description--show": false,
-        "products-per-row--desktop": "3",
-        "products-per-row--mobile": "1",
-        "product_limit": 5,
-        "product_limit_mobile": 2,
-        "collection_button_text": "Shop More",
-        "button_url": "shopify:\/\/collections\/all"
-      }
     }
   },
   "order": [
@@ -541,7 +518,6 @@
     "text-columns",
     "featured-blog",
     "map",
-    "16525664441f3557ef",
-    "088b2b8e-10b8-4278-b000-85caf71b87ff"
+    "16525664441f3557ef"
   ]
 }
