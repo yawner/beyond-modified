@@ -35,10 +35,9 @@
         "settings": {
           "enabled": false,
           "home-page-only": false,
-          "background-color": "dark",
+          "background-color": "none",
           "light-text": true,
-          "icon": "shopify:\/\/shop_images\/black-mountain-logo.png",
-          "text": "Announcement for sales, promos, shipping info & more — Click and Collect available",
+          "text": "FREE SHIPPING ON ORDERS $100 and UP",
           "link": ""
         }
       },
