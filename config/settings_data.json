@@ -36,7 +36,7 @@
           "enabled": false,
           "home-page-only": false,
           "background-color": "none",
-          "light-text": true,
+          "light-text": false,
           "text": "FREE SHIPPING ON ORDERS $100 and UP",
           "link": ""
         }
