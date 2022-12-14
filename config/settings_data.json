@@ -33,12 +33,13 @@
       "announcement": {
         "type": "announcement",
         "settings": {
-          "enabled": false,
+          "enabled": true,
           "home-page-only": false,
-          "background-color": "none",
-          "light-text": false,
+          "background-color": "light",
+          "light-text": true,
+          "icon": "shopify:\/\/shop_images\/fromone.jpg",
           "text": "FREE SHIPPING ON ORDERS $100 and UP",
-          "link": ""
+          "link": "shopify:\/\/pages\/contact"
         }
       },
       "header": {
