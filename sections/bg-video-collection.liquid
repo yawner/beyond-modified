@@ -115,8 +115,8 @@
         if onboarding
           for i in (1..product_limit)
             assign placeholder_index = i
-            if i > 100
-              assign placeholder_index = i | minus: 100
+            if i > 6
+              assign placeholder_index = i | minus: 6
             endif
 
             render 'product--item', onboarding: true, unique_handle: unique_handle, placeholder_index: placeholder_index
@@ -315,21 +315,21 @@
       "type": "range",
       "id": "product_limit",
       "min": 1,
-      "max": 50,
+      "max": 25,
       "step": 1,
       "label": "Product limit desktop",
       "info": "Limit your products so they don't overflow your video on desktop",
-      "default": 5
+      "default": 25
     },
     {
       "type": "range",
       "id": "product_limit_mobile",
       "min": 1,
-      "max": 50,
+      "max": 25,
       "step": 1,
       "label": "Product limit mobile",
       "info": "Limit your products so they don't overflow your video on mobile",
-      "default": 2
+      "default": 25
     },
     {
       "type": "text",
