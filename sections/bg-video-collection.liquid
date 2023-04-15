@@ -14,6 +14,8 @@
   assign light_text = section.settings.light-text
   assign product_per_row_desktop = section.settings.products-per-row--desktop
   assign product_per_row_mobile = section.settings.products-per-row--mobile
+  assign product_limit = section.settings.product_limit
+  assign product_limit_mobile = section.settings.product_limit_mobile | plus: 1
   assign spacing_above = section.settings.spacing-above
   assign spacing_below = section.settings.spacing-below
   assign unique_handle = 'featured-collection--' | append: section.id
@@ -313,7 +315,7 @@
       "type": "range",
       "id": "product_limit",
       "min": 1,
-      "max": 10,
+      "max": 100,
       "step": 1,
       "label": "Product limit desktop",
       "info": "Limit your products so they don't overflow your video on desktop",
@@ -323,7 +325,7 @@
       "type": "range",
       "id": "product_limit_mobile",
       "min": 1,
-      "max": 6,
+      "max": 100,
       "step": 1,
       "label": "Product limit mobile",
       "info": "Limit your products so they don't overflow your video on mobile",
