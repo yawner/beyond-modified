@@ -15,9 +15,9 @@
         "spacing-below": false,
         "featured-collection--image--show": false,
         "featured-collection--description--show": false,
-        "products-per-row--desktop": "3",
+        "products-per-row--desktop": "4",
         "products-per-row--mobile": "2",
-        "product_limit": 6,
+        "product_limit": 10,
         "product_limit_mobile": 6,
         "collection_button_text": "Shop More",
         "collection_button_url": "shopify:\/\/collections\/all"
