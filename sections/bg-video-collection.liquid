@@ -115,8 +115,8 @@
         if onboarding
           for i in (1..product_limit)
             assign placeholder_index = i
-            if i > 6
-              assign placeholder_index = i | minus: 6
+            if i > 100
+              assign placeholder_index = i | minus: 100
             endif
 
             render 'product--item', onboarding: true, unique_handle: unique_handle, placeholder_index: placeholder_index
