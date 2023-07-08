@@ -35,7 +35,7 @@
         "settings": {
           "enabled": true,
           "home-page-only": false,
-          "background-color": "accent",
+          "background-color": "dark",
           "light-text": true,
           "text": "FLASH SALE! use code: ENDLESSSUMMER20 for 20% off ENTIRE ORDER!",
           "link": "shopify:\/\/pages\/contact"
