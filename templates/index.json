@@ -4,10 +4,10 @@
       "type": "bg-video-collection",
       "settings": {
         "collection": "frontpage",
-        "video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/black-mountain-surf-wax-bg.mp4?v=1650061268",
-        "mobile-video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/bg-video-surf-mobile.mp4?v=1652383427",
+        "video-url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fba4f94187fc473caf7ea77ae3e2d8f9.mp4",
+        "mobile-video-url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fba4f94187fc473caf7ea77ae3e2d8f9.mp4",
         "mobile-poster-img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/0858\/6469\/files\/gif-bg-video-surf-mobile.gif?v=1652384399",
-        "video_zoom": 110,
+        "video_zoom": 100,
         "desktop_padding": 72,
         "mobile_padding": 56,
         "light-text": false,
@@ -155,7 +155,6 @@
     },
     "slideshow": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "slide-0": {
           "type": "image",
@@ -174,6 +173,7 @@
       "block_order": [
         "slide-0"
       ],
+      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "dark",
@@ -193,7 +193,6 @@
     },
     "16401844160b2264d6": {
       "type": "grid-with-overlay",
-      "disabled": true,
       "blocks": {
         "1640184416bb54cf4d-0": {
           "type": "image",
@@ -222,6 +221,7 @@
         "1640184416bb54cf4d-0",
         "1640184416bb54cf4d-1"
       ],
+      "disabled": true,
       "settings": {
         "text-style": "light-with-overlay",
         "background-color": "none",
@@ -264,7 +264,6 @@
     },
     "grid-with-overlay": {
       "type": "grid-with-overlay",
-      "disabled": true,
       "blocks": {
         "overlay-block-0": {
           "type": "image",
@@ -317,6 +316,7 @@
         "overlay-block-2",
         "overlay-block-3"
       ],
+      "disabled": true,
       "settings": {
         "text-style": "box",
         "background-color": "none",
@@ -335,7 +335,6 @@
     },
     "text-columns": {
       "type": "text-columns",
-      "disabled": true,
       "blocks": {
         "text-below-block-0": {
           "type": "image",
@@ -373,6 +372,7 @@
         "text-below-block-1",
         "text-below-block-2"
       ],
+      "disabled": true,
       "settings": {
         "background-color": "none",
         "light-text": false,
@@ -426,7 +426,6 @@
     },
     "16525664441f3557ef": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "1652566444c85773db-0": {
           "type": "image",
@@ -483,6 +482,7 @@
         "1652566444c85773db-2",
         "1652566444c85773db-3"
       ],
+      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
