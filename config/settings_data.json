@@ -1787,7 +1787,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".header--root {padding: 12px 48px;}"
+      ".header--root {padding: 12px 48px;}",
+      ".cart--additional-buttons.additional-checkout-buttons.additional-checkout-buttons--vertical {display: none;}"
     ]
   }
 }
