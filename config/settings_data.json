@@ -62,7 +62,7 @@
           "fix-enabled": true,
           "fixed-logo-height": 50,
           "menu": "main-menu",
-          "header-account-show": true,
+          "header-account-show": false,
           "account-icon": "text",
           "search-icon": "text",
           "cart-icon": "bag",
