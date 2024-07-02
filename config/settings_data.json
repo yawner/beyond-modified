@@ -47,7 +47,7 @@
         "settings": {
           "enabled": true,
           "home-page-only": false,
-          "background-color": "accent",
+          "background-color": "light",
           "light-text": true,
           "text": "FREE SHIPPING ON ORDERS OVER $100",
           "link": "shopify:\/\/pages\/contact"
