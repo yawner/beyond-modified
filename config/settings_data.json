@@ -39,6 +39,7 @@
     "search--show-in-header": false,
     "social--instagram--url": "https:\/\/www.instagram.com\/blackmountainsurfwax\/",
     "favicon": "shopify:\/\/shop_images\/bmountainweblogo.png",
+    "cart--show-note": false,
     "typography--custom": true,
     "sections": {
       "announcement": {
