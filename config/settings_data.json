@@ -59,7 +59,7 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/bmountainweblogo.png",
           "logo-position": "left",
-          "logo-height": 75,
+          "logo-height": 90,
           "fix-enabled": true,
           "fixed-logo-height": 50,
           "menu": "main-menu",
