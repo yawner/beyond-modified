@@ -1785,7 +1785,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-
+      ".header--root {padding: 12px 48px;}"
     ]
   }
 }
