@@ -36,6 +36,7 @@
     "product--quick-add-enabled": false,
     "product--variant-style": "buttons",
     "product--show-quantity": false,
+    "product--smart-payment-button": false,
     "search--show-in-header": false,
     "social--instagram--url": "https:\/\/www.instagram.com\/blackmountainsurfwax\/",
     "favicon": "shopify:\/\/shop_images\/bmountainweblogo.png",
